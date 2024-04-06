@@ -1,7 +1,7 @@
 /**
   * @name Dark-
   * @author ScarceKoi
-  * @version 2.1
+  * @version 2.2
   * @description Highly customized dark and purple theme for Discord, forked from Dark+ (credit to Dark+ author, DevEvil99)
   * @authorId 1167818576992936019
   * @authorLink https://github.com/scarcekoi
@@ -1393,8 +1393,6 @@ button[aria-label="Send a gift"] {
   background: var(--darkplus-bg);
 }
 
-.icon_ae0b42,
-.title__84e16,
 .tabBar__73938 .item_e4ca95,
 .brand-3g5E0C.item-3XjbnG:hover,
 .themed-2-lozF.item-3XjbnG:hover,
@@ -1443,9 +1441,8 @@ button[aria-label="Send a gift"] {
 }
 
 .searchBar__621ec .searchBarComponent__8f95f {
-  color: var(--darkplus-sec);
-  outline-color: var(--darkplus-sec);
   background-color: var(--darkplus-bg2);
+  color: var(--darkplus-sec);
   border-radius: 10px;
 }
 
