@@ -29,10 +29,10 @@
 }
 
 .searchBar__621ec {
-  background-color: var(--darkplus-bg);
+  outline-color: var(--darkplus-bg);
 }
 .searchBar__621ec .searchBarComponent__8f95f {
-  background-color: var(--darkplus-bg2);
+  outline-color: var(--darkplus-bg2);
   border-radius: 20px;
 }
 .scroller__89969.thin_b1c063.scrollerBase-_bVAAt.fade-1R6FHN {
@@ -101,12 +101,12 @@
 }
 
 .wrapper__3c6d5 {
-  background-color: var(--darkplus-sec);
+  background-color: var(--darkplus-bg2);
   border: none;
 }
 .wrapper__3c6d5:hover,
 .wrapper__3c6d5.active__76f42 {
-  background-color: var(--darkplus-links) !important;
+  background-color: var(--darkplus-bg2) !important;
 }
 .wrapper__3c6d5 .inset__61d5b {
   background-color: var(--darkplus-bg);
@@ -876,7 +876,7 @@ button.button_ae40a4 {
   color: var(--darkplus-bg);
 }
 .searchBox__56feb.searchBox-31Zv9h {
-  background-color: var(--darkplus-sec);
+  outline-color: var(--darkplus-sec);
 }
 .search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
   color: var(--darkplus-bg);
@@ -1405,16 +1405,16 @@ button[aria-label="Send a gift"] {
 
 .input__48d49,
 .medium__5b9a9.iconLayout__67261 {
-  background-color: var(--darkplus-sec);
+  background-color: var(--darkplus-bg2);
   border-radius: 10px;
 }
 
 .input__48d49::placeholder {
-  color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
 }
 
 .icon_fb52f0.visible_c5d475 {
-  color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
 }
 
 .actionButton__2b4bb {
@@ -1432,8 +1432,9 @@ button[aria-label="Send a gift"] {
 }
 
 .searchBar__621ec .searchBarComponent__8f95f {
-  background-color: var(--darkplus-sec);
-  color: var(--darkplus-bg);
+  color: var(--darkplus-sec);
+  outline-color: var(--darkplus-sec);
+  background-color: var(--darkplus-bg2);
   border-radius: 10px;
 }
 
