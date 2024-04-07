@@ -12,8 +12,9 @@
 :root {
   --darkminus-main: #11111b;
   --darkminus-main2: #1e1e2e;
-  --darkminus-sec: #bb86fc;
+  --darkminus-sec: #74c7ec;
   --darkminus-sec2: #b4befe;
+  --darkminus-other: #89b4fa;
   --darkminus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
   --darkminus-emoji-picker-color: 210deg;
 }
