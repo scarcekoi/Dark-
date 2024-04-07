@@ -6,15 +6,19 @@
   * @authorId 1167818576992936019
   * @authorLink https://github.com/scarcekoi
   * @website https://github.com/DevEvil99/DarkPlus-Discord-Theme
-  * @invite rjjWu4sDS3
+  * @invite X8QBgNdRFd
 */
 
 :root {
   --darkminus-main: #11111b;
   --darkminus-main2: #1e1e2e;
+  --darkminus-main3: #24273a;
   --darkminus-sec: #74c7ec;
   --darkminus-sec2: #b4befe;
+  --darkminus-sec3: #8839ef;
   --darkminus-other: #89b4fa;
+  --darkminus-other2: #494d64;
+  --darkminus-other3: #363a4f;
   --darkminus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
   --darkminus-emoji-picker-color: 210deg;
 }
@@ -7108,6 +7112,10 @@ div[class*="fixClipping"]
   background: rgba(243, 139, 168, 0.15);
 }
 
+/*
+Dark+ Modified After Here
+*/
+
 .bg__12180,
 .container__827e6 {
   background-color: var(--darkminus-main);
@@ -7202,18 +7210,18 @@ div[class*="fixClipping"]
 }
 
 .wrapper__3c6d5 {
-  background-color: var(--darkminus-main2);
+  background-color: var(--darkminus-other3);
   border: none;
 }
 .wrapper__3c6d5:hover,
 .wrapper__3c6d5.active__76f42 {
-  background-color: var(--darkminus-main2) !important;
+  background-color: var(--darkminus-main3) !important;
 }
 .wrapper__3c6d5 .inset__61d5b {
   background-color: var(--darkminus-main);
 }
 .wrapper__3c6d5 .section__253ec {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-other2);
 }
 .header__77c95 {
   background-color: var(--darkminus-main);
@@ -7838,7 +7846,7 @@ button.button_ae40a4 {
 }
 .item_e4ca95[aria-label="Add Friend"] {
   color: var(--darkminus-main) !important;
-  background-color: var(--darkminus-sec) !important;
+  background-color: var(--darkminus-sec3) !important;
 }
 .addInputWrapper-1BOZ3d {
   background-color: var(--darkminus-main);
