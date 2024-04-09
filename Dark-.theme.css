@@ -6993,24 +6993,6 @@ Dark+ Modified After Here
 .container__3673d {
   background-color: var(--darkminus-main);
 }
-.container__3673d .scroller__7c25e {
-  margin-left: 0;
-  border-left: none;
-}
-.wrapper__3c6d5 {
-  background-color: var(--darkminus-main3);
-  border: none;
-}
-.wrapper__3c6d5:hover,
-.wrapper__3c6d5.active__76f42 {
-  background-color: var(--darkminus-main3) !important;
-}
-.wrapper__3c6d5 .inset__61d5b {
-  background-color: var(--darkminus-main);
-}
-.wrapper__3c6d5 .section__253ec {
-  background-color: var(--darkminus-other2);
-}
 .header__77c95 {
   background-color: var(--darkminus-main);
   color: var(--darkminus-sec);
@@ -8221,7 +8203,7 @@ button[aria-label="Send a gift"] {
 }
 
 .textContent_e33074 {
-  color: var(--darkminus-main);
+  color: var(--darkminus-sec);
 }
 
 .categoryItemDefaultCategorySelected__7d6e0 .categoryIcon_d0a396,
