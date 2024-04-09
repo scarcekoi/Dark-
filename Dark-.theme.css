@@ -3552,43 +3552,10 @@ html {
   --logo-primary: #cdd6f4;
   --control-brand-foreground: #89b4fa;
   --control-brand-foreground-new: #89b4fa;
-  --mention-foreground: #89b4fa;
-  --mention-background: rgba(137, 180, 250, 0.3);
-  --background-mentioned: rgba(249, 226, 175, 0.1);
-  --background-mentioned-hover: rgba(249, 226, 175, 0.08);
-  --background-message-hover: rgba(17, 17, 27, 0.25);
-  --background-message-automod: rgba(245, 224, 220, 0.05);
-  --background-message-automod-hover: rgba(245, 224, 220, 0.1);
-  --background-message-highlight: rgba(137, 180, 250, 0.1);
-  --background-message-highlight-hover: rgba(137, 180, 250, 0.08);
   --channels-default: #969ebe;
-  --channel-icon: #969ebe;
-  --channel-text-area-placeholder: rgba(205, 214, 244, 0.5);
-  --channeltextarea-background: #181825;
-  --activity-card-background: #11111b;
-  --textbox-markdown-syntax: #6c7086;
-  --spoiler-revealed-background: #313244;
-  --spoiler-hidden-background: #585b70;
-  --android-navigation-bar-background: #11111b;
-  --android-ripple: rgba(17, 17, 27, 0.3);
-  --deprecated-card-bg: rgba(17, 17, 27, 0.6);
-  --deprecated-card-editable-bg: rgba(17, 17, 27, 0.3);
-  --deprecated-store-bg: #1e1e2e;
-  --deprecated-quickswitcher-input-background: #4d4f62;
-  --deprecated-quickswitcher-input-placeholder: rgba(17, 17, 27, 0.3);
-  --deprecated-text-input-bg: #11111b;
-  --deprecated-text-input-border: rgba(17, 17, 27, 0.3);
-  --deprecated-text-input-border-hover: #07070b;
-  --deprecated-text-input-border-disabled: #181825;
-  --deprecated-text-input-prefix: #a6adc8;
-  --focus-primary: #89b4fa;
   --interactive-normal: #cdd6f4;
-  --interactive-muted: rgba(205, 214, 244, 0.3);
   --interactive-hover: #cdd6f4;
   --interactive-active: #cdd6f4;
-  --search-popout-option-non-text-color: #a6adc8;
-  --__spoiler-background-color--hidden: #585b70;
-  --__spoiler-warning-background-color: #63677e;
 }
 ::selection {
   background-color: rgba(137, 180, 250, 0.6);
@@ -6935,6 +6902,9 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.container__0bd59 {
+	background-color: var(--darkminus-main2);
+}
 .bg__12180,
 .container__827e6 {
   background-color: var(--darkminus-main);
@@ -7027,9 +6997,8 @@ Dark+ Modified After Here
   margin-left: 0;
   border-left: none;
 }
-
 .wrapper__3c6d5 {
-  background-color: var(--darkminus-other3);
+  background-color: var(--darkminus-main3);
   border: none;
 }
 .wrapper__3c6d5:hover,
