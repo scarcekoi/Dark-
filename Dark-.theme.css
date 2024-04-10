@@ -3413,145 +3413,19 @@ html {
 .theme-dark,
 .theme-light {
   --header-primary: #cdd6f4;
-  --header-secondary: #a6adc8;
   --text-normal: #cdd6f4;
   --text-muted: #a6adc8;
-  --text-link: #cba6f7;
-  --text-link-low-saturation: #74c7ec;
-  --text-positive: #a6e3a1;
-  --text-warning: #f9e2af;
-  --text-danger: #f38ba8;
-  --text-brand: #89b4fa;
   --background-primary: var(--darkminus-main);
   --background-secondary: var(--darkminus-main);
   --background-secondary-alt: var(--darkminus-main);
   --background-tertiary: #11111b;
   --background-accent: #89b4fa;
   --background-floating: #0d0d15;
-  --background-nested-floating: #181825;
-  --background-mobile-primary: #1e1e2e;
-  --background-mobile-secondary: #181825;
-  --chat-background: #1e1e2e;
-  --chat-border: #11111b;
-  --chat-input-container-background: #1e1e2e;
-  --background-modifier-hover: rgba(205, 214, 244, 0.15);
   --background-modifier-selected: rgba(205, 214, 244, 0.2);
   --background-modifier-accent: rgba(205, 214, 244, 0.26);
-  --background-modifier-active: rgba(205, 214, 244, 0.17);
-  --info-positive-background: rgba(166, 227, 161, 0.15);
-  --info-positive-foreground: #a6e3a1;
-  --info-positive-text: #cdd6f4;
-  --info-warning-background: rgba(249, 226, 175, 0.15);
-  --info-warning-foreground: #f9e2af;
-  --info-warning-text: #cdd6f4;
-  --info-danger-background: rgba(243, 139, 168, 0.15);
-  --info-danger-foreground: #f38ba8;
-  --info-danger-text: #cdd6f4;
-  --info-help-background: rgba(137, 220, 235, 0.15);
-  --info-help-foreground: #89dceb;
-  --info-help-text: #cdd6f4;
   --status-positive-background: #a6e3a1;
-  --status-positive-text: #1e1e2e;
-  --status-warning-background: #f9e2af;
-  --status-warning-text: #1e1e2e;
-  --status-danger-background: #f38ba8;
-  --status-danger-text: #1e1e2e;
-  --status-danger: #f38ba8;
-  --status-positive: #a6e3a1;
-  --status-warning: #f9e2af;
-  --status-yellow-400: #f9e2af;
-  --status-green-600: #a6e3a1;
-  --primary-dark-600: #1e1e2e;
-  --status-yellow-560: #f9e2af;
-  --status-red-500: #f38ba8;
-  --status-red-530: #f38ba8;
-  --status-yellow-500: #f9e2af;
-  --black-500: #11111b;
   --green-360: #a6e3a1;
-  --yellow-360: #f9e2af;
-  --yellow-300: #f9e2af;
-  --red-400: #f38ba8;
   --brand-500: #89b4fa;
-  --brand-560: #5895f8;
-  --primary-100: #bac2de;
-  --primary-300: #bac2de;
-  --primary-400: #bac2de;
-  --primary-dark-700: #11111b;
-  --primary-800: #11111b;
-  --status-green-560: #a6e3a1;
-  --white-400: #cdd6f4;
-  --white-500: #cdd6f4;
-  --guild-boosting-pink: #f5c2e7;
-  --premium-perk-yellow: #f9e2af;
-  --premium-perk-purple: #cba6f7;
-  --premium-perk-dark-blue: #5895f8;
-  --premium-perk-light-blue: #a1c4fb;
-  --premium-perk-blue: #89b4fa;
-  --premium-perk-green: #a6e3a1;
-  --premium-perk-pink: #f5c2e7;
-  --premium-perk-orange: #fab387;
-  --status-green-400: #a6e3a1;
-  --button-danger-background: #f38ba8;
-  --button-danger-background-hover: #f17497;
-  --button-danger-background-active: #649df8;
-  --button-danger-background-disabled: #f38ba8;
-  --button-positive-background: #a6e3a1;
-  --button-positive-background-hover: #93dd8d;
-  --button-positive-background-active: #8ada84;
-  --button-positive-background-disabled: #a6e3a1;
-  --button-secondary-background: #45475a;
-  --button-secondary-background-hover: #3a3c4c;
-  --button-secondary-background-active: #3a3c4c;
-  --button-secondary-background-disabled: #45475a;
-  --button-outline-danger-text: #cdd6f4;
-  --button-outline-danger-border: #f38ba8;
-  --button-outline-danger-background: transparent;
-  --button-outline-danger-background-hover: #f27f9f;
-  --button-outline-danger-text-hover: #1e1e2e;
-  --button-outline-danger-border-hover: #f27f9f;
-  --button-outline-danger-background-active: #f17497;
-  --button-outline-danger-text-active: #1e1e2e;
-  --button-outline-danger-border-active: #f27f9f;
-  --button-outline-positive-text: #cdd6f4;
-  --button-outline-positive-border: #a6e3a1;
-  --button-outline-positive-background: transparent;
-  --button-outline-positive-background-hover: #9de097;
-  --button-outline-positive-text-hover: #1e1e2e;
-  --button-outline-positive-border-hover: #9de097;
-  --button-outline-positive-background-active: #93dd8d;
-  --button-outline-positive-text-active: #1e1e2e;
-  --button-outline-positive-border-active: #9de097;
-  --button-outline-brand-text: #cdd6f4;
-  --button-outline-brand-border: #89b4fa;
-  --button-outline-brand-background: transparent;
-  --button-outline-brand-background-hover: #7dacf9;
-  --button-outline-brand-text-hover: #1e1e2e;
-  --button-outline-brand-border-hover: #7dacf9;
-  --button-outline-brand-background-active: #71a4f9;
-  --button-outline-brand-text-active: #1e1e2e;
-  --button-outline-brand-border-active: #7dacf9;
-  --button-outline-primary-text: #cdd6f4;
-  --button-outline-primary-border: #585b70;
-  --button-outline-primary-background: transparent;
-  --button-outline-primary-background-hover: #525569;
-  --button-outline-primary-text-hover: #1e1e2e;
-  --button-outline-primary-border-hover: #525569;
-  --button-outline-primary-background-active: #4d4f62;
-  --button-outline-primary-text-active: #1e1e2e;
-  --button-outline-primary-border-active: #525569;
-  --modal-background: #1e1e2e;
-  --modal-footer-background: #11111b;
-  --scrollbar-thin-thumb: #89b4fa;
-  --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: #89b4fa;
-  --scrollbar-auto-track: #11111b;
-  --scrollbar-auto-scrollbar-color-thumb: #89b4fa;
-  --scrollbar-auto-scrollbar-color-track: #11111b;
-  --input-background: #11111b;
-  --input-placeholder-text: #bac2de;
-  --logo-primary: #cdd6f4;
-  --control-brand-foreground: #89b4fa;
-  --control-brand-foreground-new: #89b4fa;
   --channels-default: #969ebe;
   --interactive-normal: #cdd6f4;
   --interactive-hover: #cdd6f4;
@@ -7252,11 +7126,11 @@ Dark+ Modified After Here
 
 .avatar__08316.clickable__09456 {
   filter: drop-shadow(0 0 5px);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-sec3);
 }
 .avatar__08316:hover.clickable__09456:hover {
   filter: drop-shadow(0 0 8px);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-sec3);
   transform: scale(1.2) rotate(360deg);
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
@@ -7855,10 +7729,10 @@ button[aria-label="Send a gift"] {
 }
 
 .field__69fa0 > div > div > div {
-  filter: blur(5px);
+  filter: blur(0px);
 }
 .field__69fa0 > div > div > div:hover {
-  filter: blur(0);
+  filter: blur(0px);
 }
 
 .messageGroupWrapper__1fce2 .messageGroupCozy__9d016 {
