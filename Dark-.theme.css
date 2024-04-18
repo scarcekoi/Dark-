@@ -2,7 +2,7 @@
   * @name Dark-
   * @author ScarceKoi
   * @version 2.8
-  * @description Dark-ish theme for Discord, the most code from catpuccin, by catpuccin, & some other code from Dark+, by DevEvil99. 
+  * @description Dark-ish theme for Discord. 
   * @authorId 1167818576992936019
   * @authorLink https://github.com/scarcekoi
   * @website https://github.com/DevEvil99/DarkPlus-Discord-Theme
@@ -865,7 +865,7 @@ div[class^="sidebar"] div[class^="container"] div[class^="divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="pageWrapper"] {
-  background: #1e1e2e !important;
+  background: #11111!important;
 }
 div[class^="pageWrapper"] div[class*="searchBox_"] {
   background-color: #181825;
@@ -4274,7 +4274,7 @@ div[class^="sidebar"] div[class^="container"] div[class^="divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="pageWrapper"] {
-  background: #1e1e2e !important;
+  background: var(--darkminus-main) !important;
 }
 div[class^="pageWrapper"] div[class*="searchBox_"] {
   background-color: #181825;
@@ -8240,6 +8240,10 @@ button[aria-label="Send a gift"] {
 .member_b44d5d,
 .members__573eb {
   background-color: var(--darkminus-main);
+}
+
+.list__5ced9 {
+	background-color: var(--darkminus-main);
 }
 
 .scroller-1jBQYo,
