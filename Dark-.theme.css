@@ -50,7 +50,7 @@
 }
 .theme-dark svg[class*="tier1ProfilePerk_"],
 .theme-light svg[class*="tier1ProfilePerk_"] {
-  color: #89b4fa !important;
+  color: #11111b !important;
 }
 .theme-dark svg[class*="tier1BoostPerk_"],
 .theme-light svg[class*="tier1BoostPerk_"] {
@@ -3365,7 +3365,7 @@ div[class*="fixClipping"]
 }
 [data-popout-root],
 html {
-  --brand-experiment: #89b4fa;
+  --brand-experiment: var(--darkminus-main3);
   --brand-experiment-100: white;
   --brand-experiment-130: white;
   --brand-experiment-160: white;
