@@ -13,6 +13,7 @@
   --darkminus-main: #11111b;
   --darkminus-main2: #1e1e2e;
   --darkminus-main3: #24273a;
+  --darkminus-main4: #1e1e2a;
   --darkminus-sec: #74c7ec;
   --darkminus-sec2: #b4befe;
   --darkminus-sec3: #8839ef;
@@ -6777,6 +6778,10 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.card__4dc22 {
+	background-color: var(--darkminus-main4);
+	border-radius: 20px;
+}
 .container__0bd59 {
 	background-color: var(--darkminus-main2);
 }
