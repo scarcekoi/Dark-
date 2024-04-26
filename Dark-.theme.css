@@ -3365,7 +3365,7 @@ div[class*="fixClipping"]
 }
 [data-popout-root],
 html {
-  --brand-experiment: var(--darkminus-main3);
+  --brand-experiment: var(--darkminus-sec3);
   --brand-experiment-100: white;
   --brand-experiment-130: white;
   --brand-experiment-160: white;
