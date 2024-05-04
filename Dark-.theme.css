@@ -6779,6 +6779,9 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.container__9c57c {
+	background-color: var(--darkminus-main2);
+}
 .card__4dc22 {
 	background-color: var(--darkminus-main4);
 	border-radius: 20px;
@@ -7110,7 +7113,8 @@ Dark+ Modified After Here
   color: var(--darkminus-sec2);
 }
 .grid__35551 {
-  background-color: var(--darkminus-main2);
+  background-color: var(--darkminus-main5);
+  border-radius: 5px;
 }
 
 .cozyMessage__9f4fd .contents_d3ae0d > .markup_a7e664:not(:empty, code) {
@@ -8262,11 +8266,11 @@ button[aria-label="Send a gift"] {
 }
 
 .content__690c5 {
-  background-color: var(--darkminus-main5);
+  background-color: var(--darkminus-main);
 }
 
 .scroller__1f498 {
-  background-color: var(--darkminus-main);
+  background-color: var(--darkminus-main2);
 }
 
 .container__68e43 {
