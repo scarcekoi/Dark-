@@ -14,6 +14,7 @@
   --darkminus-main2: #1e1e2e;
   --darkminus-main3: #24273a;
   --darkminus-main4: #1e1e2a;
+  --darkminus-main5: #161622;
   --darkminus-sec: #74c7ec;
   --darkminus-sec2: #b4befe;
   --darkminus-sec3: #8839ef;
@@ -7251,11 +7252,11 @@ Dark+ Modified After Here
 }
 
 .sidebarRegionScroller__8113e {
-  background-color: var(--darkminus-main);
+  background-color: var(--darkminus-main5);
 }
 
 .contentRegion__08eba {
-  background-color: var(--darkminus-main);
+  background-color: var(--darkminus-main5);
 }
 .contentRegion__08eba .contentRegionScroller__9ae20 {
   background-color: transparent;
