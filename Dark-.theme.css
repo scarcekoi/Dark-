@@ -8276,10 +8276,11 @@ button[aria-label="Send a gift"] {
 
 .content__690c5 {
   background-color: var(--darkminus-main);
+  border-radius: 10px;
 }
 
 .scroller__1f498 {
-  background-color: var(--darkminus-main2);
+  background-color: var(--darkminus-main);
 }
 
 .container__68e43 {
