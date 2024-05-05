@@ -6845,9 +6845,9 @@ Dark+ Modified After Here
   color: var(--darkminus-sec);
 }
 .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f {
-  max-height: 45vh;
-  background-color: var(--darkminus-main2);
-  border-radius: 22px;
+  max-height: 50vh;
+  background-color: var(--darkminus-main6);
+  border-radius: 20px;
 }
 .form_d8a4a1 .channelTextArea_c2094b {
   background-color: transparent;
@@ -7592,7 +7592,7 @@ button.button_ae40a4 {
   color: var(--darkminus-sec2);
 }
 .theme-dark .wrapper_f5f4c9 {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-main2);
   color: var(--darkminus-main);
 }
 .container-36u7Lw {
@@ -8281,7 +8281,7 @@ button[aria-label="Send a gift"] {
 }
 
 .content__690c5 {
-  background-color: var(--darkminus-main5);
+  background-color: var(--darkminus-main);
 }
 
 .scroller__1f498 {
