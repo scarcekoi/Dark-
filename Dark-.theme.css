@@ -6780,6 +6780,12 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.titleContainer_d09261 {
+	background-color: var(--darkminus-main5);
+}
+.header_ee0bd9 {
+	background-color: var(--darkminus-main5);
+}
 .header__5e5a6 {
 	background-color: var(--darkminus-main5);
 }
@@ -8275,8 +8281,7 @@ button[aria-label="Send a gift"] {
 }
 
 .content__690c5 {
-  background-color: var(--darkminus-main);
-  border-radius: 10px;
+  background-color: var(--darkminus-main5);
 }
 
 .scroller__1f498 {
