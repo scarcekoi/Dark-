@@ -446,7 +446,7 @@ div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
 div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
-  background-color: #313244;
+  background-color: var(--darkminus-main);
   color: #cdd6f4;
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
@@ -3855,7 +3855,7 @@ div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
 div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
-  background-color: #313244;
+  background-color: var(--darkminus-main);
   color: #cdd6f4;
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
@@ -6780,6 +6780,18 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.scrollerBase__65223 {
+	background-color: var(--darkminus-main);
+}
+.paymentRow__7568c {
+	background-color: var(--darkminus-main);
+}
+.pageActions_ccda85 {
+	background-color: var(--darkminus-main);
+}
+.bottomDivider_c85b47 {
+	background-color: var(--darkminus-main);
+}
 .titleContainer_d09261 {
 	background-color: var(--darkminus-main5);
 }
