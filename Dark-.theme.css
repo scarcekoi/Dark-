@@ -7283,14 +7283,14 @@ Dark+ Modified After Here
 }
 
 .sidebarRegionScroller__8113e {
-  background-color: var(--darkminus-main5);
+  background-color: var(--darkminus-main);
 }
 
 .contentRegion__08eba {
   background-color: var(--darkminus-main5);
 }
 .contentRegion__08eba .contentRegionScroller__9ae20 {
-  background-color: transparent;
+  background-color: var(--darkminus-main);
 }
 
 .background__4e802 {
