@@ -6805,8 +6805,8 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-main2);
 }
 .card__4dc22 {
-	background-color: var(--darkminus-main4);
-	border-radius: 20px;
+	background-color: var(--darkminus-main6);
+	border-radius: 30px;
 }
 .container__0bd59 {
 	background-color: var(--darkminus-main2);
@@ -8207,7 +8207,7 @@ button[aria-label="Send a gift"] {
 
 .input__48d49,
 .medium__5b9a9.iconLayout__67261 {
-  background-color: var(--darkminus-main2);
+  background-color: var(--darkminus-main6);
   border-radius: 10px;
 }
 
