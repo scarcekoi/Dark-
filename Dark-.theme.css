@@ -6415,13 +6415,13 @@ rect[fill="#f23f43"],
 #account-status-picker--dnd foreignObject > div[class^="status__"],
 rect[fill="#ea474b"],
 foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
-  fill: var(--darkminus-a6e3a1) !important;
-  background-color: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-sec) !important;
+  background-color: var(--darkminus-sec) !important;
 }
 svg[fill="#f23f43"],
 rect[fill="#f23f43"],
 rect[fill="#e6ae3c"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-sec) !important;
 }
 rect[fill="#82858f"],
 rect[fill="#80848e"],
