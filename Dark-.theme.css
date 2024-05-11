@@ -5252,10 +5252,10 @@ div[class*="giftCodeContainer"] [class*="tile"] > [class*="description"] {
   color: var(--darkminus-sec3);
 }
 div[class*="chat_"] section[class*="header_"] {
-  background-color: var(--darkminus-main6);
+  background-color: var(--darkminus-main);
 }
 div[class*="chat_"] div[class*="content_"][class*="container_"] {
-  background-color: var(--darkminus-main6);
+  background-color: var(--darkminus-main);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
@@ -5296,7 +5296,7 @@ div[class*="chat_"]
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
   div[role="tablist"] {
-  background-color: var(--darkminus-main6);
+  background-color: var(--darkminus-main);
   border-bottom: 2px solid var(--darkminus-313244);
 }
 [class*="textBadge_"] {
