@@ -22,6 +22,8 @@
   --darkminus-other: #494d64;
   --darkminus-other2: #363a4f;
   --darkminus-other3: #ca9ee6;
+  --darkminus-red: #f38ba8;
+  --darkminus-maroon: #eba0ac;
   --darkminus-45475a: #45475a;
   --darkminus-f5c2e7: #f5c2e7;
   --darkminus-a6e3a1: #a6e3a1;
@@ -6415,13 +6417,13 @@ rect[fill="#f23f43"],
 #account-status-picker--dnd foreignObject > div[class^="status__"],
 rect[fill="#ea474b"],
 foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
-  fill: var(--darkminus-sec) !important;
-  background-color: var(--darkminus-sec) !important;
+  fill: var(--darkminus-maroon) !important;
+  background-color: var(--darkminus-maroon) !important;
 }
 svg[fill="#f23f43"],
 rect[fill="#f23f43"],
 rect[fill="#e6ae3c"] {
-  fill: var(--darkminus-sec) !important;
+  fill: var(--darkminus-maroon) !important;
 }
 rect[fill="#82858f"],
 rect[fill="#80848e"],
