@@ -5401,7 +5401,7 @@ div[class^="layerContainer"] [role="menu"] {
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"][class*="colorBrand"] {
-  color: var(--darkminus-other);
+  color: var(--darkminus-sec3);
 }
 div[class^="layerContainer"]
   [role="menu"]
