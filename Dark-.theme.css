@@ -4300,7 +4300,7 @@ div[class^="pageWrapper"] div[class*="categoryPill_"][class*="selected_"] div {
   color: var(--darkminus-main) !important;
 }
 div[class^="homeContainer"] {
-  background: var(--darkminus-main2) !important;
+  background: var(--darkminus-main) !important;
 }
 div[class^="homeContainer"] > div[class^="homeContent"] div[class*="card_"] {
   background: var(--darkminus-313244) !important;
@@ -6783,6 +6783,9 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.row__4f559 {
+	background-color: var(--darkminus-main6);
+}
 .scrollerBase__65223 {
 	background-color: var(--darkminus-main);
 }
