@@ -4905,7 +4905,7 @@ div[class*="autocomplete_"] div[class*="autocompleteRowContentSecondary"] {
   background-color: #00000000;
 }
 div[class*="autocomplete_"] div[class^="usageWrapper"] > div[class*="title_"] {
-  color: var(--darkminus-other) !important;
+  color: var(--darkminus-sec) !important;
 }
 div[class*="autocomplete_"] strong {
   color: var(--darkminus-other) !important;
@@ -5528,7 +5528,7 @@ div[class^="layerContainer"]
   [class*="colorDefault"]
   [class*="check_"] {
   color: var(--background-floating);
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-sec);
 }
 div[class^="layerContainer"]
   [role="menu"]
