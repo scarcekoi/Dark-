@@ -5376,7 +5376,7 @@ aside[class^="membersWrap"] {
   height: 100%;
 }
 div[class^="upperContainer"] div[class^="akaBadge"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-sec);
   color: var(--darkminus-main);
 }
 div[class^="message"][class*="isSystemMessage"]
