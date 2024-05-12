@@ -6758,6 +6758,9 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.vc-addon-card {
+	background-color: var(--darkminus-main6);
+}
 .row__4f559 {
 	background-color: var(--darkminus-main6);
 }
