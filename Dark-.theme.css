@@ -1105,17 +1105,6 @@ div[class^="layerContainer"]
 div[class^="auditLog"] div[class^="headerClickable"] {
   background-color: #11111b4d !important;
 }
-nav[class*="guilds_"]
-  foreignObject
-  > div[data-list-item-id*="guildsnav_"]:hover
-  > div[class^="childWrapper"],
-nav[class*="guilds_"]
-  foreignObject
-  > div[data-list-item-id*="guildsnav_"][class*="selected"]
-  > div[class^="childWrapper"] {
-  color: var(--darkminus-main);
-  font-weight: 600;
-}
 nav[class*="guilds_"] div[data-list-item-id="guildsnav___home"] {
   --background-primary: #242437;
 }
@@ -2011,14 +2000,6 @@ div[class^="layerContainer"]
     [id*="user-context-user-volume"]
   ):hover {
   color: var(--darkminus-main);
-}
-div[class^="layerContainer"]
-  [role="menu"]
-  [class*="colorDefault"][role="menuitem"]:not(
-    [class*="colorDanger"],
-    [id*="user-context-user-volume"]
-  ):hover:not([class*="colorPremiumGradient"]) {
-  background: var(--background-accent);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5418,14 +5399,6 @@ div[class^="layerContainer"]
     [id*="user-context-user-volume"]
   ):hover {
   color: var(--darkminus-main);
-}
-div[class^="layerContainer"]
-  [role="menu"]
-  [class*="colorDefault"][role="menuitem"]:not(
-    [class*="colorDanger"],
-    [id*="user-context-user-volume"]
-  ):hover:not([class*="colorPremiumGradient"]) {
-  background: var(--background-accent);
 }
 div[class^="layerContainer"]
   [role="menu"]
