@@ -23,11 +23,13 @@
   --darkminus-other2: #363a4f;
   --darkminus-other3: #ca9ee6;
   --darkminus-red: #f38ba8;
+  --darkminus-dark-red: #d20f39;
   --darkminus-maroon: #eba0ac;
   --darkminus-45475a: #45475a;
   --darkminus-f5c2e7: #f5c2e7;
   --darkminus-a6e3a1: #a6e3a1;
   --darkminus-313244: #313244;
+  --darkminus-discord-blue: #505cdc;
   --darkminus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
 }
 
@@ -5501,7 +5503,7 @@ div[class^="layerContainer"]
   [class*="colorDefault"]
   [class*="check_"] {
   color: var(--background-floating);
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-dark-red);
 }
 div[class^="layerContainer"]
   [role="menu"]
