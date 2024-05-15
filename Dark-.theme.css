@@ -6759,8 +6759,23 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.userPopoutOverlayBackground__3e7e6 {
+	background-color: var(--darkminus-main6);
+}
+.divider_d6f39c {
+	background-color: var(--darkminus-main6);
+}
+ .container__1c2eb {
+	background-color: var(--darkminus-main6);
+}
+.header_ee0bd9 {
+	background-color: var(--darkminus-main6);
+}
+.titleContainer_d09261 {
+	background-color: var(--darkminus-main6);
+}
 .inner__999f6 {
-	background-color: var(--darkminus-main5);
+	background-color: var(--darkminus-main6);
 }
 .item__183e8 {
 	background-color: var(--darkminus-main6);
@@ -6776,7 +6791,7 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-main6);
 }
 .scrollerBase__65223 {
-	background-color: var(--darkminus-main);
+	background-color: var(--darkminus-main6);
 }
 .paymentRow__7568c {
 	background-color: var(--darkminus-main);
@@ -6785,12 +6800,6 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-main);
 }
 .bottomDivider_c85b47 {
-	background-color: var(--darkminus-main);
-}
-.titleContainer_d09261 {
-	background-color: var(--darkminus-main);
-}
-.header_ee0bd9 {
 	background-color: var(--darkminus-main);
 }
 .header__5e5a6 {
@@ -7282,10 +7291,10 @@ Dark+ Modified After Here
 }
 
 .contentRegion__08eba {
-  background-color: var(--darkminus-main5);
+  background-color: var(--darkminus-main6);
 }
 .contentRegion__08eba .contentRegionScroller__9ae20 {
-  background-color: var(--darkminus-main5);
+  background-color: var(--darkminus-main6);
 }
 
 .background__4e802 {
@@ -8284,10 +8293,6 @@ button[aria-label="Send a gift"] {
 }
 
 .theme-dark .container_debb33 {
-  background-color: var(--darkminus-main);
-}
-
-.content__690c5 {
   background-color: var(--darkminus-main);
 }
 
