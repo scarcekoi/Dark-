@@ -23,6 +23,7 @@
   --darkminus-other2: #363a4f;
   --darkminus-other3: #ca9ee6;
   --darkminus-red: #f38ba8;
+  --darkminus-other-red: #da373c;
   --darkminus-dark-red: #d20f39;
   --darkminus-maroon: #eba0ac;
   --darkminus-45475a: #45475a;
@@ -5504,7 +5505,7 @@ div[class^="layerContainer"]
   [class*="colorDefault"]
   [class*="check_"] {
   color: var(--background-floating);
-  background-color: var(--darkminus-dark-red);
+  background-color: var(--darkminus-other-red);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5667,11 +5668,11 @@ div[class*="recentMentionsPopout"]
   div[class^="header"]
   div[class^="controls-"] {
   --background-secondary: var(--darkminus-313244);
-  --background-primary: rgba(49, 50, 68, 0.9);
+  --background-primary: #313244e6;
 }
 div[class*="recentMentionsPopout"] div[class^="scroller"] [role="button"] {
-  --background-tertiary: rgba(166, 173, 200, 0.15);
-  --background-floating: rgba(166, 173, 200, 0.12);
+  --background-tertiary: #a6adc826;
+  --background-floating: #a6adc81f;
 }
 div[class*="recentMentionsPopout"]
   div[class^="scroller"]
@@ -6759,6 +6760,10 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.mention {
+	background-color: var(--darkminus-other-red);
+	color: var(--darkminus-main);
+}
 .userPopoutOverlayBackground__3e7e6 {
 	background-color: var(--darkminus-main6);
 }
@@ -6908,18 +6913,6 @@ Dark+ Modified After Here
 .header__77c95 {
   background-color: var(--darkminus-main);
   color: var(--darkminus-sec);
-}
-.mention_dd733a {
-  background-color: var(--darkminus-sec);
-}
-.mentioned_fa6fd2 {
-  background-color: rgba(var(--darkminus-sec), 0.1) !important;
-}
-.mentioned_fa6fd2:before {
-  background-color: var(--darkminus-sec);
-}
-.mentioned_fa6fd2:hover {
-  background-color: rgba(var(--darkminus-sec), 0.2) !important;
 }
 
 .iconBadge__20a6b {
