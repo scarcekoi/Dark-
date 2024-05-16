@@ -22,6 +22,7 @@
   --darkminus-other: #494d64;
   --darkminus-other2: #363a4f;
   --darkminus-other3: #ca9ee6;
+  --darkminus-blue-violet: #8a2be2;
   --darkminus-red: #f38ba8;
   --darkminus-other-red: #da373c;
   --darkminus-dark-red: #d20f39;
@@ -6761,8 +6762,8 @@ Dark+ Modified After Here
 */
 
 .mention {
-	background-color: var(--darkminus-other-red);
-	color: var(--darkminus-main);
+	background-color: var(--darkminus-other2);
+	color: #FFFFFF;
 }
 .userPopoutOverlayBackground__3e7e6 {
 	background-color: var(--darkminus-main6);
