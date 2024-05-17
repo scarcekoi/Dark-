@@ -10,6 +10,7 @@
 */
 
 :root {
+  --darkminus-main0: #0d0d15;
   --darkminus-main: #11111b;
   --darkminus-main2: #1e1e2e;
   --darkminus-main3: #24273a;
@@ -3414,7 +3415,7 @@ html {
   --background-secondary-alt: var(--darkminus-main);
   --background-tertiary: var(--darkminus-main);
   --background-accent: var(--darkminus-other);
-  --background-floating: #0d0d15;
+  --background-floating: var(--darkminus-main0);
   --background-modifier-selected: #cdd6f433;
   --background-modifier-accent: #cdd6f442;
   --status-positive-background: var(--darkminus-a6e3a1);
@@ -6776,7 +6777,7 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-main6);
 }
  .container__1c2eb {
-	background-color: var(--darkminus-main6);
+	background-color: var(--background-floating);
 }
 .header_ee0bd9 {
 	background-color: var(--darkminus-main6);
