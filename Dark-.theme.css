@@ -33,6 +33,7 @@
   --darkminus-313244: #313244;
   --darkminus-light-grey: #23242d;
   --darkminus-discord-blue: #505cdc;
+  --profile-gradient-primary-color: var(--darkminus-sec);
   --darkminus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
 }
 
@@ -6761,6 +6762,9 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.welcomeMessageContent__26562 {
+	background-color: var(--darkminus-main6);
+}
 .mention {
 	background-color: var(--darkminus-other2);
 	color: #FFFFFF;
