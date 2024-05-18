@@ -10,29 +10,29 @@
 */
 
 :root {
-  --darkminus-main0: #0d0d15;
+  --darkminus-floating: #0d0d15;
   --darkminus-main: #11111b;
   --darkminus-main2: #1e1e2e;
   --darkminus-main3: #24273a;
   --darkminus-main4: #1e1e2a;
   --darkminus-main5: #161622;
   --darkminus-main6: #181825;
-  --darkminus-sec: #8a2be2;
-  --darkminus-sec2: #a86eff;
-  --darkminus-sec3: #cdd6f4;
-  --darkminus-other: #494d64;
-  --darkminus-other2: #363a4f;
-  --darkminus-other3: #ca9ee6;
+  --darkminus-blue-violet: #8a2be2;
+  --darkminus-dark-blue-violet: #a86eff;
+  --darkminus-dark-grey: #cdd6f4;
+  --darkminus-light-grey: #494d64;
+  --darkminus-darkish-grey: #363a4f;
+  --darkminus-dark-purple: #ca9ee6;
   --darkminus-status-red: #eba0ac;
   --darkminus-discord-red: #f23f42;
   --darkminus-pink: #f38ba8;
-  --darkminus-45475a: #45475a;
-  --darkminus-f5c2e7: #f5c2e7;
-  --darkminus-a6e3a1: #a6e3a1;
-  --darkminus-313244: #313244;
-  --darkminus-light-grey: #23242d;
+  --darkminus-darky-grey: #45475a;
+  --darkminus-dark-pink: #f5c2e7;
+  --darkminus-darkish-green: #a6e3a1;
+  --darkminus-kinda-dark-grey: #313244;
+  --darkminus-very-dark-grey: #23242d;
   --darkminus-discord-blue: #505cdc;
-  --profile-gradient-primary-color: var(--darkminus-sec);
+  --profile-gradient-primary-color: var(--darkminus-blue-violet);
   --darkminus-home-icon: url(https://devevil.com/betterdiscord/dark%2b-logo.png);
 }
 
@@ -59,7 +59,7 @@
 }
 .theme-dark svg[class*="noItemsIcon_"],
 .theme-light svg[class*="noItemsIcon_"] {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 .theme-dark svg[class*="tier1ProfilePerk_"],
 .theme-light svg[class*="tier1ProfilePerk_"] {
@@ -67,7 +67,7 @@
 }
 .theme-dark svg[class*="tier1BoostPerk_"],
 .theme-light svg[class*="tier1BoostPerk_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="tier1CustomEmojiPerk_"],
 .theme-light svg[class*="tier1CustomEmojiPerk_"] {
@@ -75,27 +75,27 @@
 }
 .theme-dark svg[class*="tier1UploadPerk_"],
 .theme-light svg[class*="tier1UploadPerk_"] {
-  color: var(--darkminus-sec2) !important;
+  color: var(--darkminus-dark-blue-violet) !important;
 }
 .theme-dark svg[class*="tier1StreamPerk_"],
 .theme-light svg[class*="tier1StreamPerk_"] {
-  color: var(--darkminus-a6e3a1) !important;
+  color: var(--darkminus-darkish-green) !important;
 }
 .theme-dark svg[class*="guildBoostingIcon_"],
 .theme-light svg[class*="guildBoostingIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="guildSubscriptionSlotIcon_"],
 .theme-light svg[class*="guildSubscriptionSlotIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="guildSubscriberCountIcon_"],
 .theme-light svg[class*="guildSubscriberCountIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="gemWithLabel_"],
 .theme-light svg[class*="gemWithLabel_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="gemWithoutLabel_"],
 .theme-light svg[class*="gemWithoutLabel_"] {
@@ -103,15 +103,15 @@
 }
 .theme-dark svg[class*="memberBadgeIcon_"],
 .theme-light svg[class*="memberBadgeIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="audioQualityIcon_"],
 .theme-light svg[class*="audioQualityIcon_"] {
-  color: var(--darkminus-sec) !important;
+  color: var(--darkminus-blue-violet) !important;
 }
 .theme-dark svg[class*="uploadSizeIcon_"],
 .theme-light svg[class*="uploadSizeIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="threadIcon_"],
 .theme-light svg[class*="threadIcon_"] {
@@ -119,23 +119,23 @@
 }
 .theme-dark svg[class*="premiumIcon_"],
 .theme-light svg[class*="premiumIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="gameIcon_"],
 .theme-light svg[class*="gameIcon_"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 .theme-dark svg[class*="tierMarkerLabelPlusIcon_"],
 .theme-light svg[class*="tierMarkerLabelPlusIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="currentTierIcon_"],
 .theme-light svg[class*="currentTierIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="tier3Icon_"],
 .theme-light svg[class*="tier3Icon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="searchIcon_"],
 .theme-light svg[class*="searchIcon_"] {
@@ -143,7 +143,7 @@
 }
 .theme-dark svg[class*="upsellIcon_"],
 .theme-light svg[class*="upsellIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 [class*="lookFilled_"][class*="colorBrand_"],
 [class*="lookFilled_"][class*="colorBrandNew_"],
@@ -178,29 +178,29 @@
   color: var(--darkminus-main);
 }
 [class*="lookFilled_"][class*="colorPrimary_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 button[class*="lookFilled_"][class*="colorRed_"]:active {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 [class*="lookOutlined_"][class*="colorPrimary_"] {
-  border-color: var(--darkminus-45475a);
+  border-color: var(--darkminus-darky-grey);
 }
 [class*="lookOutlined_"][class*="colorPrimary_"]:hover {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
-  border-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  border-color: var(--darkminus-darky-grey);
 }
 div[class^="actionButtons"] [class^="button"][class*="buttonColor_"],
 div[class^="actionButtons"] [class^="button"] [class*="buttonColor_"] {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="actionButtons"]
   [class^="button"][class*="buttonColor_"][class*="buttonActive_"],
 div[class^="actionButtons"]
   [class^="button"]
   [class*="buttonColor_"][class*="buttonActive_"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
   color: var(--darkminus-main);
 }
 div[class^="actionButtons"]
@@ -231,11 +231,11 @@ div[class^="actionButtons"]
 }
 .theme-dark [class*="lookLink_"][class*="colorPrimary_"],
 .theme-light [class*="lookLink_"][class*="colorPrimary_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark [class*="lookFilled_"][class*="colorTransparent_"],
 .theme-light [class*="lookFilled_"][class*="colorTransparent_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-313244);
 }
 div[class*="button_"][class*="dangerous_"]:hover {
@@ -245,11 +245,11 @@ div[role="radio"][class*="selected"] {
   color: var(--darkminus-main);
 }
 div[role="radio"][class*="selected"][class*="allow"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 [class*="container_"][style*="background_color: var(__green_360)"] {
-  --green-360: var(--darkminus-a6e3a1);
-  background-color: var(--darkminus-a6e3a1) !important;
+  --green-360: var(--darkminus-darkish-green);
+  background-color: var(--darkminus-darkish-green) !important;
 }
 [class*="container_"][style*="background_color: var(__primary_400)"],
 [class*="container_"][style*="background_color: #82858F"] {
@@ -265,13 +265,13 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--text-muted);
 }
 [class*="topGuildEmojiBadge_"] {
-  background: linear-gradient(268.26deg, #fab387, var(--darkminus-a6e3a1) 102.45%);
+  background: linear-gradient(268.26deg, #fab387, var(--darkminus-darkish-green) 102.45%);
 }
 [class*="topGuildEmojiBadge_"] * {
   color: var(--darkminus-main) !important;
 }
 [class*="newlyAddedBadge_"] {
-  background: linear-gradient(268.26deg, #94e2d5, var(--darkminus-a6e3a1) 102.45%);
+  background: linear-gradient(268.26deg, #94e2d5, var(--darkminus-darkish-green) 102.45%);
 }
 [class*="newlyAddedBadge_"] * {
   color: var(--darkminus-main) !important;
@@ -282,16 +282,16 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] button[class^="backButton"][class*="lookBlank"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"]
   svg[class^="icon"] {
-  fill: var(--darkminus-f5c2e7) !important;
+  fill: var(--darkminus-dark-pink) !important;
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"][class*="selected_"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main) !important;
 }
 div[class^="sidebarRegion"]
@@ -300,7 +300,7 @@ div[class^="sidebarRegion"]
   fill: var(--darkminus-main) !important;
 }
 div[class^="sidebarRegion"] div[class^="premiumTab"] > div > svg > path {
-  fill: var(--darkminus-f5c2e7);
+  fill: var(--darkminus-dark-pink);
 }
 div[class^="sidebarRegion"] div[class^="premiumTab"] > div[class*="selected"] {
   color: var(--darkminus-main);
@@ -320,7 +320,7 @@ div[class^="sidebarRegion"]
 div[class^="sidebarRegion"]
   div[class*="tabBarItemContainer_"]
   [class*="textBadge_"][style*="background-color: var(--brand-500);"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 div[class^="contentRegion"]
   div[class*="noticeRegion_"]
@@ -333,12 +333,12 @@ div[class^="contentRegion"] div[class^="streamerModeEnabledBtn"] {
 }
 div[class^="contentRegion"] [class^="bar"] :not(div[class^="barFill"]),
 div[class^="contentRegion"] [class^="markDash"] {
-  background: var(--darkminus-45475a);
+  background: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(139,"] {
-  border-color: var(--darkminus-a6e3a1);
+  border-color: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
@@ -348,21 +348,21 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(359,"] {
-  border-color: var(--darkminus-a6e3a1);
+  border-color: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class*="betaTagIcon"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 div[class^="contentRegion"] #accessibility-tab button[class*="colorBrandNew"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
   circle[class^="circleProgress"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -379,7 +379,7 @@ div[class^="contentRegion"]
   #nitro-server-boost-tab
   button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -388,7 +388,7 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #nitro-server-boost-tab div[class*="card_"],
 div[class^="contentRegion"] #nitro-server-boost-tab h3[class*="price_"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #keybinds-tab span[class*="key"] {
   color: var(--darkminus-main);
@@ -404,31 +404,31 @@ div[class^="contentRegion"] #library-inventory-tab div[class^="promotionIcon"] {
   background-color: var(--darkminus-main2);
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="buttonWhite"] {
-  color: var(--darkminus-sec3) !important;
-  border-color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
+  border-color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab h2 {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab svg[class*="sparkleStar_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="description_"] {
   color: #bac2de !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="card_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
   div[class*="card_"]
   div[class^="item"]
   div {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
@@ -442,12 +442,12 @@ div[class^="contentRegion"] #billing-tab [class*="Divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="defaultIndicator"] {
-  color: var(--darkminus-sec3);
-  background-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class*="summaryInfo"],
 div[class^="contentRegion"] #billing-tab [class^="paymentHeader"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
@@ -457,23 +457,23 @@ div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"] #billing-tab [class*="paymentText_"] {
   color: #bac2de;
 }
 div[class^="contentRegion"] #billing-tab div[class^="codeRedemptionRedirect"] {
   background-color: var(--darkminus-main6);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   border-color: var(--darkminus-313244);
 }
 div[class^="contentRegion"]
   [id="voice-&-video-tab"]
   div[class^="backgroundOptionRing"] {
-  border-color: var(--darkminus-other);
+  border-color: var(--darkminus-light-grey);
 }
 div[class^="contentRegion"]
   [id="voice-&-video-tab"]
@@ -484,7 +484,7 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #notifications-tab
   button[class*="marketingUnsubscribeButton_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="nowPlayingAdd_"],
 div[class^="contentRegion"] #game-activity-tab div[class*="lastPlayed_"],
@@ -508,7 +508,7 @@ div[class^="contentRegion"]
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #game-activity-tab input[class^="gameName"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #game-activity-tab
@@ -518,7 +518,7 @@ div[class^="contentRegion"]
   input[class*="gameNameInput_"]:focus {
   background-color: var(--darkminus-main6);
   border-color: #1818254d;
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="game_"] {
   -webkit-box-shadow: 0 1px 0 0 var(--background-modifier-accent);
@@ -533,15 +533,15 @@ div[class^="contentRegion"] #emoji-tab div[class*="emojiRemove_"] {
 div[class^="contentRegion"]
   section[class^="inputSensitivityToggle"]
   div[class^="inputSensitivityBar"] {
-  background: var(--darkminus-45475a);
+  background: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   section[class^="inputSensitivityToggle"]
   div[class^="inputSensitivityBar"][class*="speaking_"] {
-  background: var(--darkminus-a6e3a1) !important;
+  background: var(--darkminus-darkish-green) !important;
 }
 div[class^="contentRegion"] div[class*="reactionMe_"] {
-  background-color: var(--darkminus-313244) !important;
+  background-color: var(--darkminus-kinda-dark-grey)!important;
 }
 div[class^="contentRegion"]
   div[class^="switch"]
@@ -562,12 +562,12 @@ div[class^="contentRegion"] div[class^="control"] > div[class*="checked_"],
 div[class^="contentRegion"] div[class^="sensitivity"] div[class*="checked_"],
 div[class^="contentRegion"]
   div[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 div[class^="contentRegion"] #guild_premium-tab [class*="tierAccomplished_"],
 div[class^="contentRegion"] #guild_premium-tab [class*="tierCurrent_"],
 div[class^="contentRegion"] #guild_premium-tab [class*="tierFirst_"] {
-  background: var(--darkminus-f5c2e7);
+  background: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"] #guild_premium-tab [class*="tierInProgress_"] {
   background-color: var(--darkminus-main);
@@ -586,7 +586,7 @@ div[class^="contentRegion"]
   > svg
   > g
   > rect:nth-child(2) {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierHeaderUnlocked"],
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierHeaderLocked"] {
@@ -601,7 +601,7 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   div[class^="tierUnlocked"] {
-  background-image: linear-gradient(90deg, var(--darkminus-other), #cba6f7);
+  background-image: linear-gradient(90deg, var(--darkminus-light-grey), #cba6f7);
   color: var(--darkminus-main);
   font-weight: 600;
 }
@@ -613,7 +613,7 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   svg[class^="tierIcon"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -641,14 +641,14 @@ div[class^="contentRegion"] #guild_premium-tab div[class^="tierBody"] {
 }
 div[class^="contentRegion"] svg[class^="activeCircle"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #discovery-tab
   div[class*="checklistIcon"]
   svg[viewBox="0 0 14 14"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #discovery-tab
@@ -661,13 +661,13 @@ div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"][viewBox="0 0 24 24"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"][viewBox="0 0 14 14"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
@@ -708,10 +708,10 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #profile-customization-tab
   div[class^="imageUploaderIcon_"] {
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #appearance-tab div[class^="selectionCircle"] {
-  box-shadow: inset 0 0 0 2px var(--darkminus-other), inset 0 0 0 4px var(--background-primary);
+  box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 4px var(--background-primary);
 }
 div[class^="contentRegion"]
   #appearance-tab
@@ -726,7 +726,7 @@ div[class^="contentRegion"]
   svg[class^="checkmarkCircle"]
   > g
   > path {
-  fill: var(--darkminus-other) !important;
+  fill: var(--darkminus-light-grey) !important;
 }
 .theme-light
   div[class^="contentRegion"]
@@ -738,7 +738,7 @@ div[class^="contentRegion"] #overview-tab div[class^="addTags"] svg path {
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #onboarding-tab div[class*="heroQuotes"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
@@ -759,13 +759,13 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #onboarding-tab div[class^="addPrompt"],
 div[class^="contentRegion"] #onboarding-tab div[class^="addActionItem"] {
-  border: 2px dashed var(--darkminus-45475a);
+  border: 2px dashed var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
   div[class^="badExample"]
   div[class^="example"] {
-  border: 2px solid var(--darkminus-45475a);
+  border: 2px solid var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
@@ -778,29 +778,29 @@ div[class^="contentRegion"] #developer-options-tab kbd {
   color: var(--darkminus-main);
 }
 .bd-settings-title {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .bd-switch-body {
   --switch-color: #585b70;
 }
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: var(--darkminus-a6e3a1);
+  --switch-color: var(--darkminus-darkish-green);
 }
 .bd-switch input:checked + .bd-switch-body svg.bd-switch-symbol path {
   fill: #328e2a;
 }
 .bd-button {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 .bd-button.bd-button-danger {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 .bd-controls > .bd-addon-button svg {
   fill: var(--darkminus-main);
 }
 .bd-addon-views .bd-view-button.selected {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 .bd-addon-views .bd-view-button.selected svg {
   fill: var(--darkminus-main);
@@ -812,13 +812,13 @@ div[class^="perksModal"] li[class^="perk"] {
   background-color: var(--darkminus-main6);
 }
 div[class^="perksModal"] li[class^="perk"] svg {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="perksModal"] svg[class^="giftIcon"] {
   color: var(--darkminus-main);
 }
 div[class^="perksModal"] div[class^="tierHeaderUnlocked"] {
-  background-image: linear-gradient(90deg, var(--darkminus-other), #cba6f7);
+  background-image: linear-gradient(90deg, var(--darkminus-light-grey), #cba6f7);
   color: var(--darkminus-main2);
 }
 div[class^="perksModal"] div[class^="tierUnlocked"],
@@ -831,16 +831,16 @@ div[class^="perksModal"] div[class^="tierBody"] {
   background-color: var(--darkminus-main) !important;
 }
 div[class^="perksModal"] div[class^="tierMarkerAccomplished"] {
-  background: var(--darkminus-f5c2e7) !important;
+  background: var(--darkminus-dark-pink) !important;
 }
 div[class^="perksModal"]
   div[class^="tierMarkerInProgress"]
   [class^="currentTierIcon"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="perksModal"] div[class^="barForeground"],
 div[class^="perksModal"] div[class^="tierMarkerAccomplished"] {
-  background-color: var(--darkminus-f5c2e7);
+  background-color: var(--darkminus-dark-pink);
 }
 div[class^="perksModal"] svg[class^="currentTierIcon"] {
   color: var(--darkminus-main2);
@@ -859,17 +859,17 @@ div[class^="perksModal"] div[class^="tierHeaderLocked"] {
   color: var(--text-muted);
 }
 div[class^="perksModal"] svg[class*="unlocked"] {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 div[class^="sidebar"] div[class^="container"] div[class^="progressBar"] {
-  background: linear-gradient(90deg, var(--darkminus-other), #cba6f7);
+  background: linear-gradient(90deg, var(--darkminus-light-grey), #cba6f7);
 }
 div[class^="sidebar"] div[class^="container"]:hover div[class^="progressBar"] {
   background: linear-gradient(
     90deg,
-    var(--darkminus-other),
+    var(--darkminus-light-grey),
     #cba6f7 34%,
-    var(--darkminus-other) 67%,
+    var(--darkminus-light-grey) 67%,
     #cba6f7
   );
   background-size: 300% 100%;
@@ -901,7 +901,7 @@ div[class^="homeContainer"] {
   background: var(--darkminus-main2) !important;
 }
 div[class^="homeContainer"] > div[class^="homeContent"] div[class*="card_"] {
-  background: var(--darkminus-313244) !important;
+  background: var(--darkminus-kinda-dark-grey)!important;
 }
 section[class^="title"] {
   background: var(--background-primary) !important;
@@ -930,7 +930,7 @@ div[class*="directoryModal_"] [role="button"][class*="activeButton"] {
 section[class^="guildListSection"]
   div[class^="guildList"]:first-child
   div[class^="iconContainer"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 section[class^="guildListSection"]
   div[class^="guildList"]:first-child
@@ -945,7 +945,7 @@ path[d="M17.225 6.06504C17.3227 6.00866 17.4362 5.98608 17.548 6.00084C17.6598 6
   fill: var(--darkminus-main);
 }
 div[class^="tierPreviews"] button[class^="button"] {
-  background: linear-gradient(90deg, #94e2d5, var(--darkminus-other));
+  background: linear-gradient(90deg, #94e2d5, var(--darkminus-light-grey));
 }
 div[class^="notice"] div[class*="noticeText_"] {
   color: var(--darkminus-main);
@@ -976,7 +976,7 @@ div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
   div[class^="actions"]
   button {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main) !important;
   border-color: var(--darkminus-main);
 }
@@ -1014,7 +1014,7 @@ div[class^="standardSidebarView"]
 }
 div[class^="premiumFeatureBorder"] {
   background: linear-gradient(var(--darkminus-main), var(--darkminus-main)) padding-box,
-    linear-gradient(45deg, #cba6f7, var(--darkminus-f5c2e7)) border-box;
+    linear-gradient(45deg, #cba6f7, var(--darkminus-dark-pink)) border-box;
 }
 div[class^="premiumFeatureBorder"] div[class^="premiumBackground"] {
   background: linear-gradient(
@@ -1029,14 +1029,14 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   svg
   g {
-  fill: var(--darkminus-sec3);
+  fill: var(--darkminus-dark-grey);
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
   div[class^="premiumCards"]
   div[class*="item"]
   div[class^="text"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -1047,7 +1047,7 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   h2
   span {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -1075,7 +1075,7 @@ div[class^="shop"]
   div[class^="heroBanner"]
   div[class^="heroDescription"]
   div[class^="text"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="shop"]
   div[class^="heroBanner"]
@@ -1099,7 +1099,7 @@ div[class^="layerContainer"]
   div[class^="collectibleInfoContainer"]
   button[class^="shinyButton"]
   svg {
-  fill: var(--darkminus-f5c2e7);
+  fill: var(--darkminus-dark-pink);
 }
 div[class^="layerContainer"]
   div[class^="collectibleInfoContainer"]
@@ -1138,7 +1138,7 @@ div[class^="upperBadge"] > div[class^="iconBadge"] path {
   color: var(--darkminus-main);
 }
 div[class^="upperBadge"] div[class*="participating_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class^="lowerBadge"] div[class^="iconBadge"] path {
   color: var(--darkminus-main);
@@ -1151,8 +1151,8 @@ div[class^="spineBorder"] {
 }
 ul[aria-label$=" threads"] > li:nth-child(1n) {
   --channels-default: #d8c0dd;
-  --interactive-hover: var(--darkminus-a6e3a1);
-  --interactive-active: var(--darkminus-a6e3a1);
+  --interactive-hover: var(--darkminus-darkish-green);
+  --interactive-active: var(--darkminus-darkish-green);
 }
 ul[aria-label$=" threads"] > li:nth-child(2n) {
   --channels-default: #dbccd3;
@@ -1166,13 +1166,13 @@ ul[aria-label$=" threads"] > li:nth-child(3n) {
 }
 ul[aria-label$=" threads"] > li:nth-child(4n) {
   --channels-default: #c1dadb;
-  --interactive-hover: var(--darkminus-a6e3a1);
-  --interactive-active: var(--darkminus-a6e3a1);
+  --interactive-hover: var(--darkminus-darkish-green);
+  --interactive-active: var(--darkminus-darkish-green);
 }
 ul[aria-label$=" threads"] > li:nth-child(5n) {
   --channels-default: #b9ccf6;
-  --interactive-hover: var(--darkminus-sec);
-  --interactive-active: var(--darkminus-sec);
+  --interactive-hover: var(--darkminus-blue-violet);
+  --interactive-active: var(--darkminus-blue-violet);
 }
 ul[aria-label$=" threads"] > li:nth-child(6n) {
   --channels-default: #ccc8f5;
@@ -1188,18 +1188,18 @@ svg[class*="botTagVerified_"] {
 }
 div[class*="activePostCount_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="newPostCount_"] {
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
   color: var(--darkminus-main);
 }
 div[class*="liveSmall_"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
   color: var(--darkminus-main);
 }
 div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 [class^="chatContent"] div[class*="wrapperAudio_"] div[class*="audioControls"],
 [class^="chatContent"] div[class*="wrapperAudio_"] div[class*="videoControls_"],
@@ -1250,11 +1250,11 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   border-radius: 0.4rem;
 }
 [class^="chatContent"] div[class*="isBurstReactionPicker_"] {
-  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-sec2);
+  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-dark-blue-violet);
 }
 [class^="chatContent"] div[class^="navButtonSuperReactActive"],
 [class^="chatContent"] div[class^="navButtonSuperReactActive"]:hover {
-  background: linear-gradient(270deg, var(--darkminus-f5c2e7), var(--darkminus-sec2) 33.63%, #cba6f7);
+  background: linear-gradient(270deg, var(--darkminus-dark-pink), var(--darkminus-dark-blue-violet) 33.63%, #cba6f7);
   color: var(--darkminus-main);
 }
 [class^="chatContent"] div[class*="betaTag_"] {
@@ -1266,12 +1266,12 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   color: var(--darkminus-main);
 }
 [class^="chatContent"] div[class*="colorPremiumGradient_"][class*="focused_"] {
-  background: linear-gradient(270deg, var(--darkminus-f5c2e7), var(--darkminus-sec2) 33.63%, #cba6f7);
+  background: linear-gradient(270deg, var(--darkminus-dark-pink), var(--darkminus-dark-blue-violet) 33.63%, #cba6f7);
   color: var(--darkminus-main) !important;
 }
 [class^="chatContent"] div[class*="isBurstReactionPicker"] {
   border: none;
-  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-sec2);
+  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-dark-blue-violet);
 }
 [class^="chatContent"] div[class*="playButtonContainer_"] {
   background: var(--brand-experiment) !important;
@@ -1314,7 +1314,7 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   div[class^="cardWrapper"]
   div[class*="completed_"]
   svg[class^="checkmark"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
   color: var(--darkminus-main);
 }
 div[style*="d1382af8d9e755bc44811b1fd92990a8.svg"] {
@@ -1329,7 +1329,7 @@ main[class^="chatContent"]
   div[id^="message-content"]
   svg[class^="icon"]
   > path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 .theme-dark span[class^="spoilerContent"],
 .theme-dark div[class^="spoilerContent"],
@@ -1464,12 +1464,12 @@ main[class^="chatContent"]
 }
 .theme-dark div[class^="spoilerContainer"] div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"] div[class^="spoilerWarning"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: #11111bb3;
 }
 .theme-dark div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main);
 }
 .theme-dark div[class^="spoilerContainer"] article[class*="embedFull_"],
@@ -1492,16 +1492,16 @@ div[class*="autocomplete_"] div[class*="autocompleteRowContentSecondary"] {
   background-color: #00000000;
 }
 div[class*="autocomplete_"] div[class^="usageWrapper"] > div[class*="title_"] {
-  color: var(--darkminus-other) !important;
+  color: var(--darkminus-light-grey) !important;
 }
 div[class*="autocomplete_"] strong {
-  color: var(--darkminus-other) !important;
+  color: var(--darkminus-light-grey) !important;
 }
 div[class^="channelTextArea"] button[class*="emojiButton_"] {
   background: #00000000 !important;
 }
 [class^="uploadDropModal"][class*="error"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 [class^="uploadDropModal"] div[class^="inner"] {
   border-color: var(--darkminus-main);
@@ -1572,14 +1572,14 @@ div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   svg[class^="discordIcon"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[class^="newBadge"] {
-  background-color: var(--darkminus-sec2) !important;
+  background-color: var(--darkminus-dark-blue-violet) !important;
   color: var(--darkminus-main);
 }
 div[class^="chat"]
@@ -1590,8 +1590,8 @@ div[class^="chat"]
 }
 div[class^="sidebar"] > section[class^="panels"] svg[class*="buttonIcon_"],
 div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
-  fill: var(--darkminus-sec3);
-  color: var(--darkminus-sec3);
+  fill: var(--darkminus-dark-grey);
+  color: var(--darkminus-dark-grey);
 }
 [data-list-id^="forum-channel-list"]
   div[class^="body"]
@@ -1601,14 +1601,14 @@ div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
 }
 [data-list-id^="forum-channel-list"]
   button[class^="submitButton"][class*="colorBrand"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 div[class^="applicationCommand"] span[class*="selectedPill_"] {
-  border-color: var(--darkminus-other) !important;
+  border-color: var(--darkminus-light-grey) !important;
 }
 div[class^="applicationCommand"] span[class*="erroredPill_"] {
-  border-color: var(--darkminus-a6e3a1) !important;
+  border-color: var(--darkminus-darkish-green) !important;
 }
 div[class^="chat"]
   > div[class^="content"]
@@ -1617,7 +1617,7 @@ div[class^="chat"]
   background-color: var(--background-secondary);
 }
 [class*="channelTextAreaInnerError_"] {
-  border: 1px solid var(--darkminus-a6e3a1) !important;
+  border: 1px solid var(--darkminus-darkish-green) !important;
 }
 div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
@@ -1638,7 +1638,7 @@ div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
   > div[class^="container"]:not([class*="cozy"])
   div[class^="iconWrapper"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
@@ -1657,7 +1657,7 @@ div[class^="callContainer"] [class*="controlIcon_"] {
   color: #bac2de;
 }
 div[class^="callContainer"] [class*="controlIcon_"]:hover {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="tile_"],
 div[class^="callContainer"] div[class*="background_"] {
@@ -1666,22 +1666,22 @@ div[class^="callContainer"] div[class*="background_"] {
 div[class^="callContainer"] div[class*="overlayTitle"],
 div[class^="callContainer"] svg[class*="status_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="header"],
 div[class^="callContainer"] svg[class*="selectedIcon_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="button_"][class*="contents_"],
 div[class^="callContainer"] button[class*="cta_"],
 div[class^="callContainer"] button[class*="participantsButton_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="indicators"]
   div[class^="liveQualityIndicator"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 div[class^="callContainer"]
   div[class^="indicators"]
@@ -1699,8 +1699,8 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="bottomControls"]
   button[class^="textButton"] {
-  color: var(--darkminus-sec3);
-  background-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1713,7 +1713,7 @@ div[class^="callContainer"]
   div[class^="toolbar"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"] {
-  background-color: var(--darkminus-45475a) !important;
+  background-color: var(--darkminus-darky-grey) !important;
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1721,7 +1721,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   div[class^="qualityIndicator"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1729,14 +1729,14 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   svg[class^="premiumStreamIcon"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="toolbar"]
   div[class^="liveIndicator"]
   div[class^="live"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
   color: var(--darkminus-main) !important;
 }
 div[class^="callContainer"]
@@ -1744,14 +1744,14 @@ div[class^="callContainer"]
   div[class^="toolbar"]
   div[class*="clipsEnabledIndicator"]
   div[class^="clipBadge"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   button[class*="leftTrayIcon_"][class*="buttonColor_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
   color: var(--darkminus-main);
@@ -1759,7 +1759,7 @@ div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="red_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1777,25 +1777,25 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"] {
-  background: var(--darkminus-45475a);
-  color: var(--darkminus-sec3);
+  background: var(--darkminus-darky-grey);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   [class*="centerIcon_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   svg[class^="raisedHandButtonIcon"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="green_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1821,7 +1821,7 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"][class*="active_"] {
-  background: var(--darkminus-sec3);
+  background: var(--darkminus-dark-grey);
 }
 div[class^="chat"] section[class*="forumOrHome_"] {
   background-color: var(--darkminus-main2);
@@ -1836,7 +1836,7 @@ div[class*="giftCodeContainer"] [class*="tile"] {
   background-color: var(--darkminus-main6);
 }
 div[class*="giftCodeContainer"] [class*="tile"] > [class*="description"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="chat_"] section[class*="header_"] {
   background-color: var(--darkminus-main6);
@@ -1894,7 +1894,7 @@ div[class*="chat_"]
   div[class*="searchBar"]
   span[class*="search"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 nav[class*="pageControl"] div[class*="roundButton"][class*="activeButton"],
 nav[class*="pageControl"]
@@ -1906,7 +1906,7 @@ div[class*="chat_"] li[class*="mainCard_"][class*="container"] {
   background-color: var(--darkminus-313244);
 }
 div[class*="chat_"] li[class*="mainCard_"][class*="container"]:hover {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class*="chat_"]
   li[class*="mainCard_"][class*="container"]
@@ -1941,7 +1941,7 @@ div[class*="chat_"] div[class*="innerHeader"]:after {
   color: #a6adc8;
 }
 [id*="message-accessories-"] > [class*="invite_"] [class*="partyStatus_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 [class^="avatar"] [class^="dots"] {
   color: var(--darkminus-main2);
@@ -1954,7 +1954,7 @@ div[class^="chat"] div[class^="homeContainer"] {
   height: 100%;
 }
 .messagelogger-deleted div {
-  color: var(--darkminus-a6e3a1) !important;
+  color: var(--darkminus-darkish-green) !important;
 }
 .messagelogger-deleted div a {
   color: #f17497 !important;
@@ -1963,7 +1963,7 @@ aside[class^="membersWrap"] {
   height: 100%;
 }
 div[class^="upperContainer"] div[class^="akaBadge"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 div[class^="message"][class*="isSystemMessage"]
@@ -1987,7 +1987,7 @@ div[class^="layerContainer"] [role="menu"] {
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"][class*="colorBrand"] {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2026,7 +2026,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="caret"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2037,7 +2037,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]:active:not([class*="hideInteraction_"]) {
-  color: var(--darkminus-main0);
+  color: var(--darkminus-floating);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2049,7 +2049,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]:active:not([class*="hideInteraction_"])
   [class*="checkbox_"] {
-  color: var(--darkminus-main0);
+  color: var(--darkminus-floating);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2074,7 +2074,7 @@ div[class^="layerContainer"]
   div[id^="account-switch-account"][class*="focused"]
   svg[class^="activeIcon"]
   circle {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2097,7 +2097,7 @@ div[class^="layerContainer"]
   svg[class^="activeIcon"]
   g
   path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2106,15 +2106,15 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="check_"] {
-  color: var(--darkminus-main0);
-  background-color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-floating);
+  background-color: var(--darkminus-darkish-green);
 }
 div[class^="layerContainer"]
   [role="menu"]
   #guild-header-popout-premium-subscribe
   div[class^="iconContainer"]
   > svg {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2139,7 +2139,7 @@ div[class^="layerContainer"]
   div[class*="flowerStarContainer_"]
   svg[class*="flowerStar_"]
   * {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2181,7 +2181,7 @@ div[class^="layerContainer"]
   svg[class*="activeIcon"]
   g
   path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -2254,7 +2254,7 @@ div[class^="layerContainer"]
   div[class*="container"]
   section {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="recentMentionsPopout"]
   div[class^="header"]
@@ -2274,7 +2274,7 @@ div[class*="recentMentionsPopout"]
 }
 div[class*="recentMentionsPopout"] div[class^="scroller"] [role="button"] {
   --background-tertiary: #a6adc826;
-  --darkminus-main0: #a6adc81f;
+  --darkminus-floating: #a6adc81f;
 }
 div[class*="recentMentionsPopout"]
   div[class^="scroller"]
@@ -2316,10 +2316,10 @@ div[class*="layerContainer"]
 div[class*="layerContainer"]
   > div[class*="layer"]
   div[class*="friendSelected"] {
-  background: var(--darkminus-313244) !important;
+  background: var(--darkminus-kinda-dark-grey)!important;
 }
 section[class*="positionContainer_"] button[class*="navButtonActive"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 .theme-light #gif-picker-tab-panel {
@@ -2335,12 +2335,12 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   background-color: var(--brand-experiment-25a);
 }
 #emoji-picker-tab-panel [class*="newlyAddedHighlight_"] {
-  border: 1px solid var(--darkminus-a6e3a1);
+  border: 1px solid var(--darkminus-darkish-green);
 }
 #emoji-picker-tab-panel
   [class*="newlyAddedHighlight_"]
   ~ [class*="newlyAddedBadge_"] {
-  background: var(--darkminus-a6e3a1) !important;
+  background: var(--darkminus-darkish-green) !important;
   color: var(--darkminus-main);
 }
 [class*="stickerInspected_"] [class^="inspectedIndicator"] {
@@ -2369,13 +2369,13 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   button[class^="modalCloseButton"],
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h2,
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h3 {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-light
   div[class^="focusLock"]
   div[class^="downloadApps"]
   div[class*="footer_"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
   background-color: unset !important;
 }
 .theme-light
@@ -2383,7 +2383,7 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   div[class^="downloadApps"]
   div[class*="footer_"]
   a {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-light
   div[class^="focusLock"]
@@ -2456,7 +2456,7 @@ div[class^="layerContainer"]
   div[role="listbox"]
   div[class*="queryText_"]
   strong {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2536,7 +2536,7 @@ div[class^="layerContainer"]
   div[class^="focusLock"]
   div[class^="contentWrapper"]
   span {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2583,7 +2583,7 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   h6[class^="fixed"] {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2609,7 +2609,7 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   h6[class^="fixed"]:after {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2645,7 +2645,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="checkbox"][class*="checked_"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   border: none;
 }
 div[class^="layerContainer"]
@@ -2667,7 +2667,7 @@ div[class^="layerContainer"] div[class^="queryContainer"] {
   background-color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] div[class^="queryContainer"] span[class^="key"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main2);
 }
 div[class^="layerContainer"] [class*="tooltipBrand_"],
@@ -2708,9 +2708,9 @@ div[class*="cardWarning_"] div[class*="warning_"] {
     left top,
     from(#f5c2e7),
     color-stop(33.33%, #cba6f7),
-    to(var(--darkminus-other))
+    to(var(--darkminus-light-grey))
   );
-  background: linear-gradient(270deg, var(--darkminus-f5c2e7), #cba6f7 33.33%, var(--darkminus-other));
+  background: linear-gradient(270deg, var(--darkminus-dark-pink), #cba6f7 33.33%, var(--darkminus-light-grey));
 }
 button#reaction-picker-tab div[class^="contents"] {
   color: var(--darkminus-main);
@@ -2747,16 +2747,16 @@ div[class^="planOptionClickableContainer"] span[class*="planOptionDiscount_"] {
   background-color: var(--darkminus-main) !important;
 }
 .react-datepicker__day:active {
-  background: var(--darkminus-other) !important;
+  background: var(--darkminus-light-grey) !important;
 }
 .react-datepicker__day--selected:after {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 [class^="datePickerHint"] [class^="hintValue"] {
   color: var(--darkminus-main) !important;
 }
 div[class*="layerContainer_"] div[class^="control"] div[class*="checked_"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 div[class*="layerContainer_"]
   div[class^="control"]
@@ -2769,14 +2769,14 @@ div[class*="layerContainer_"] div[class*="guildPopout_"][role="dialog"] {
 div[class*="layerContainer_"]
   div[class*="guildPopout_"][role="dialog"]
   div[class*="guildName_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"] {
   color: #7f849c !important;
   opacity: 1;
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"]:hover {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="userPopoutOuter_"] div[aria-label="HypeSquad Bravery"] img,
 div[class*="userProfileOuter_"] div[aria-label="HypeSquad Bravery"] img {
@@ -2810,16 +2810,16 @@ div[class*="userProfileOuter_"]
   > div[class^="section"]:first-child
   > div[class^="buttonsContainer"]
   > button:nth-child(2) {
-  background: var(--darkminus-other);
+  background: var(--darkminus-light-grey);
 }
 [class*="layerContainer_"] [id^="slate_toolbar"] {
-  background-color: var(--darkminus-main0);
+  background-color: var(--darkminus-floating);
 }
 [class*="layerContainer_"]
   [id^="slate_toolbar"]
   [class*="buttons_"]
   [class*="icon_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 [class*="layerContainer_"]
   div[id="sort_and_view"]
@@ -2834,14 +2834,14 @@ div[class^="layerContainer"]
   div[aria-label="clyde"]
   div[class^="profileBadges"]
   div[class^="textBadge"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   button[class^="messageClydeButton"] {
-  color: var(--darkminus-sec3);
-  background-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
@@ -2851,7 +2851,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   div[class^="pencilContainer"]
   svg[class^="editIcon"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="keyboardShortcutsModal"] span[class^="key"] {
   color: var(--darkminus-main) !important;
@@ -2860,7 +2860,7 @@ div[class^="keyboardShortcutsModal"] span[class^="key"] svg g {
   fill: var(--darkminus-main) !important;
 }
 [class*="disabledPointerEvents"] {
-  --darkminus-main0: var(--darkminus-313244);
+  --darkminus-floating: var(--darkminus-313244);
   --background-tertiary: #242437;
 }
 [class*="disabledPointerEvents"] svg[class^="activityIcon"] {
@@ -2892,7 +2892,7 @@ div[class*="phoneFieldPopout"] {
 }
 div[class*="phoneFieldPopout"] div[class^="countryName"],
 div[class*="phoneFieldPopout"] div[class^="countryCode"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="customColorPicker"] {
   background: var(--darkminus-main6) !important;
@@ -2941,12 +2941,12 @@ div[class^="layerContainer"]
   div[class^="activityStreamPreview"]
   div[class*="content"]
   div {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
   div[class^="newBadge"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
@@ -2955,7 +2955,7 @@ div[class^="layerContainer"]
   color: var(--darkminus-main);
 }
 div[class^="containerTop"] div[class^="toast"] svg path[fill="#3BA55C"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 div[class^="oauth2Wrapper"] div[class^="scope"] svg {
   color: var(--darkminus-main);
@@ -2971,13 +2971,13 @@ rect[fill="#299f5b"],
 foreignObject[mask="url(#svg-mask-status-online)"] > div,
 div[class^="dotOnline"],
 i[class^="statusOnline"] {
-  fill: var(--darkminus-a6e3a1) !important;
-  background-color: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 svg[fill="#23a55a"],
 rect[fill="#23a55a"],
 rect[fill="#299f5b"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 rect[fill="#f0b232"],
 #account-status-picker--idle foreignObject > div[class^="status__"],
@@ -2995,13 +2995,13 @@ rect[fill="#f23f43"],
 #account-status-picker--dnd foreignObject > div[class^="status__"],
 rect[fill="#ea474b"],
 foreignObject[mask="url(#svg-mask-status-dnd)"] > div {
-  fill: var(--darkminus-a6e3a1) !important;
-  background-color: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 svg[fill="#f23f43"],
 rect[fill="#f23f43"],
 rect[fill="#e6ae3c"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 rect[fill="#82858f"],
 rect[fill="#80848e"],
@@ -3031,16 +3031,16 @@ rect[fill="#5b3a91"] {
   -webkit-mask-image: url("https://discord.com/assets/eaeac24163b35f7526704a3d9b3c7722.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 .vc-user-connection [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
   padding: 16px;
 }
 #vencordthemes-tab [class*="input_"]:focus {
-  border-color: var(--darkminus-other) !important;
+  border-color: var(--darkminus-light-grey) !important;
 }
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 span[class*="username_"][style*="color: #36393E"],
@@ -3050,7 +3050,7 @@ span[class*="username_"][style*="color: #353940"] {
 div[class^="flowerStarContainer"][class*="verified_"]
   svg[class^="flowerStar"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierOne_"]
   svg[class*="flowerStar_"]
@@ -3068,24 +3068,24 @@ div[class^="flowerStarContainer"][class*="iconBackgroundTierTwo_"]
   div[class^="childContainer"]
   svg
   path {
-  fill: var(--darkminus-sec3);
+  fill: var(--darkminus-dark-grey);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierThree_"]
   svg[class*="flowerStar_"]
   path {
-  fill: var(--darkminus-f5c2e7);
+  fill: var(--darkminus-dark-pink);
 }
 div[class^="flowerStarContainer"][class*="partnered_"]
   svg[class^="flowerStar"]
   path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class^="flowerStarContainer"] div[class^="childContainer"] svg path {
   fill: var(--darkminus-main);
 }
 div[class^="communityInfoPill"] {
   --background-accent: #1e1e2eb3;
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="communityInfoPill"] div[class^="text"] {
   font-weight: 500;
@@ -3098,7 +3098,7 @@ svg[class^="uploadIcon"] {
 }
 .theme-dark h2[class^="emptyStateHeader"],
 .theme-light h2[class^="emptyStateHeader"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark p[class^="emptyStateSubtext"],
 .theme-light p[class^="emptyStateSubtext"] {
@@ -3114,13 +3114,13 @@ div[class^="numberBadge"] {
 }
 div[class^="newChannel"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 div[class^="botTag"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 div[class^="addFriendInputWrapper"]:focus-within {
-  border-color: var(--darkminus-other);
+  border-color: var(--darkminus-light-grey);
 }
 #add_friend-tab div[class^="grid"] button img {
   display: none;
@@ -3131,32 +3131,32 @@ div[class^="addFriendInputWrapper"]:focus-within {
   content: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.95431 0 0 8.9543 0 20C0 31.0457 8.95431 40 20 40Z' fill='#A6E3A1'/%3E%3Cpath d='M20 18.9C19.39 18.9 18.9 19.39 18.9 20C18.9 20.61 19.39 21.1 20 21.1C20.61 21.1 21.1 20.61 21.1 20C21.1 19.39 20.61 18.9 20 18.9ZM20 10C14.48 10 10 14.48 10 20C10 25.52 14.48 30 20 30C25.52 30 30 25.52 30 20C30 14.48 25.52 10 20 10ZM22.19 22.19L14 26L17.81 17.81L26 14L22.19 22.19Z' fill='#11111B'/%3E%3C/svg%3E");
 }
 button[class^="attachButton"] svg path[class^="attachButtonPlay"] {
-  color: var(--darkminus-a6e3a1);
-  fill: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="tags"] div[class^="pinIcon"] path {
   fill: var(--darkminus-main2) !important;
 }
 div[class*="avatarSpeaking_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1),
+  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green),
     inset 0 0 0 3px var(--background-secondary);
-  box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1),
+  box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green),
     inset 0 0 0 3px var(--background-secondary);
 }
 div[class*="videoLayer_"]
   > div[class^="tileChild"]
   > div[class^="border"][class*="speaking_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1), inset 0 0 0 3px var(--darkminus-a6e3a1);
-  box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1), inset 0 0 0 3px var(--darkminus-a6e3a1);
+  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green), inset 0 0 0 3px var(--darkminus-darkish-green);
+  box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green), inset 0 0 0 3px var(--darkminus-darkish-green);
 }
 div[class*="videoLayer_"]
   > div[class^="tileChild"]
   > div[class^="border"][class*="voiceChannelEffect_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-other), inset 0 0 0 3px var(--darkminus-other);
-  box-shadow: inset 0 0 0 2px var(--darkminus-other), inset 0 0 0 3px var(--darkminus-other);
+  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 3px var(--darkminus-light-grey);
+  box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 3px var(--darkminus-light-grey);
 }
 div[class*="featureIcon_"] path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class*="backgroundAccent_"] {
   color: var(--darkminus-main);
@@ -3191,23 +3191,23 @@ div[class^="checkbox"][class*="checked_"] svg path {
   fill: var(--darkminus-main) !important;
 }
 path[class^="updateIconForeground"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 div[class^="button"][class*="revokeInvite_"] {
   background-color: var(--darkminus-main);
   background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill='var(--darkminus-pink)' fill-rule='nonzero'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E");
 }
 div[class*="actions_"] button[class*="green_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class*="actions_"] button[class*="red_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class*="actions_"] button svg > path {
   fill: var(--darkminus-main) !important;
 }
 div[class*="actions_"] div[class^="panelButtonContainer"] button svg > path {
-  fill: var(--darkminus-sec3) !important;
+  fill: var(--darkminus-dark-grey) !important;
 }
 div[class*="fixClipping"]
   div[class^="tip"]
@@ -3216,14 +3216,14 @@ div[class*="fixClipping"]
   color: var(--darkminus-main);
 }
 .theme-dark code.hljs {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background: var(--darkminus-main2);
 }
 .theme-dark code .hljs-keyword {
   color: #cba6f7;
 }
 .theme-dark code .hljs-built_in {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-type {
   color: #f9e2af;
@@ -3244,13 +3244,13 @@ div[class*="fixClipping"]
   color: #94e2d5;
 }
 .theme-dark code .hljs-regexp {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 .theme-dark code .hljs-string {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-char.escape_ {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-subst {
   color: #a6adc8;
@@ -3268,28 +3268,28 @@ div[class*="fixClipping"]
   color: #fab387;
 }
 .theme-dark code .hljs-title {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-title.class_ {
   color: #f9e2af;
 }
 .theme-dark code .hljs-title.function_ {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-params {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark code .hljs-comment {
   color: #585b70;
 }
 .theme-dark code .hljs-doctag {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-meta {
   color: #fab387;
 }
 .theme-dark code .hljs-section {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-tag {
   color: #a6adc8;
@@ -3298,41 +3298,41 @@ div[class*="fixClipping"]
   color: #cba6f7;
 }
 .theme-dark code .hljs-attr {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-attribute {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-bullet {
   color: #94e2d5;
 }
 .theme-dark code .hljs-code {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-emphasis {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   font-style: italic;
 }
 .theme-dark code .hljs-strong {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   font-weight: bold;
 }
 .theme-dark code .hljs-formula {
   color: #94e2d5;
 }
 .theme-dark code .hljs-link {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   font-style: italic;
 }
 .theme-dark code .hljs-quote {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   font-style: italic;
 }
 .theme-dark code .hljs-selector-tag {
   color: #f9e2af;
 }
 .theme-dark code .hljs-selector-id {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-selector-class {
   color: #94e2d5;
@@ -3350,16 +3350,16 @@ div[class*="fixClipping"]
   color: #f2cdcd;
 }
 .theme-dark code .hljs-addition {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   background: rgba(166, 227, 161, 0.15);
 }
 .theme-dark code .hljs-deletion {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   background: rgba(243, 139, 168, 0.15);
 }
 [data-popout-root],
 html {
-  --brand-experiment: var(--darkminus-sec);
+  --brand-experiment: var(--darkminus-blue-violet);
   --brand-experiment-100: white;
   --brand-experiment-130: white;
   --brand-experiment-160: white;
@@ -3372,7 +3372,7 @@ html {
   --brand-experiment-400: #d2e3fd;
   --brand-experiment-430: #bad3fc;
   --brand-experiment-460: #a1c4fb;
-  --brand-experiment-500: var(--darkminus-other);
+  --brand-experiment-500: var(--darkminus-light-grey);
   --brand-experiment-560: #5895f8;
   --brand-experiment-600: #4085f7;
   --brand-experiment-630: #2776f6;
@@ -3405,24 +3405,24 @@ html {
 }
 .theme-dark,
 .theme-light {
-  --header-primary: var(--darkminus-sec3);
-  --text-normal: var(--darkminus-sec3);
+  --header-primary: var(--darkminus-dark-grey);
+  --text-normal: var(--darkminus-dark-grey);
   --text-muted: #a6adc8;
   --background-primary: var(--darkminus-main);
   --background-secondary: var(--darkminus-main);
   --background-secondary-alt: var(--darkminus-main);
   --background-tertiary: var(--darkminus-main);
-  --background-accent: var(--darkminus-other);
-  --darkminus-main0: var(--darkminus-main0);
+  --background-accent: var(--darkminus-light-grey);
+  --background-floating: #0d0d15;
   --background-modifier-selected: #cdd6f433;
   --background-modifier-accent: #cdd6f442;
-  --status-positive-background: var(--darkminus-a6e3a1);
-  --green-360: var(--darkminus-a6e3a1);
-  --brand-500: var(--darkminus-other);
+  --status-positive-background: var(--darkminus-darkish-green);
+  --green-360: var(--darkminus-darkish-green);
+  --brand-500: var(--darkminus-light-grey);
   --channels-default: #969ebe;
-  --interactive-normal: var(--darkminus-sec3);
-  --interactive-hover: var(--darkminus-sec3);
-  --interactive-active: var(--darkminus-sec3);
+  --interactive-normal: var(--darkminus-dark-grey);
+  --interactive-hover: var(--darkminus-dark-grey);
+  --interactive-active: var(--darkminus-dark-grey);
 }
 ::selection {
   background-color: #89b4fa99;
@@ -3447,15 +3447,15 @@ html {
 }
 .theme-dark svg[class*="noItemsIcon_"],
 .theme-light svg[class*="noItemsIcon_"] {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 .theme-dark svg[class*="tier1ProfilePerk_"],
 .theme-light svg[class*="tier1ProfilePerk_"] {
-  color: var(--darkminus-other) !important;
+  color: var(--darkminus-light-grey) !important;
 }
 .theme-dark svg[class*="tier1BoostPerk_"],
 .theme-light svg[class*="tier1BoostPerk_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="tier1CustomEmojiPerk_"],
 .theme-light svg[class*="tier1CustomEmojiPerk_"] {
@@ -3463,27 +3463,27 @@ html {
 }
 .theme-dark svg[class*="tier1UploadPerk_"],
 .theme-light svg[class*="tier1UploadPerk_"] {
-  color: var(--darkminus-sec2) !important;
+  color: var(--darkminus-dark-blue-violet) !important;
 }
 .theme-dark svg[class*="tier1StreamPerk_"],
 .theme-light svg[class*="tier1StreamPerk_"] {
-  color: var(--darkminus-a6e3a1) !important;
+  color: var(--darkminus-darkish-green) !important;
 }
 .theme-dark svg[class*="guildBoostingIcon_"],
 .theme-light svg[class*="guildBoostingIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="guildSubscriptionSlotIcon_"],
 .theme-light svg[class*="guildSubscriptionSlotIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="guildSubscriberCountIcon_"],
 .theme-light svg[class*="guildSubscriberCountIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="gemWithLabel_"],
 .theme-light svg[class*="gemWithLabel_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="gemWithoutLabel_"],
 .theme-light svg[class*="gemWithoutLabel_"] {
@@ -3491,15 +3491,15 @@ html {
 }
 .theme-dark svg[class*="memberBadgeIcon_"],
 .theme-light svg[class*="memberBadgeIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="audioQualityIcon_"],
 .theme-light svg[class*="audioQualityIcon_"] {
-  color: var(--darkminus-sec) !important;
+  color: var(--darkminus-blue-violet) !important;
 }
 .theme-dark svg[class*="uploadSizeIcon_"],
 .theme-light svg[class*="uploadSizeIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="threadIcon_"],
 .theme-light svg[class*="threadIcon_"] {
@@ -3507,23 +3507,23 @@ html {
 }
 .theme-dark svg[class*="premiumIcon_"],
 .theme-light svg[class*="premiumIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="gameIcon_"],
 .theme-light svg[class*="gameIcon_"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 .theme-dark svg[class*="tierMarkerLabelPlusIcon_"],
 .theme-light svg[class*="tierMarkerLabelPlusIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="currentTierIcon_"],
 .theme-light svg[class*="currentTierIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="tier3Icon_"],
 .theme-light svg[class*="tier3Icon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 .theme-dark svg[class*="searchIcon_"],
 .theme-light svg[class*="searchIcon_"] {
@@ -3531,7 +3531,7 @@ html {
 }
 .theme-dark svg[class*="upsellIcon_"],
 .theme-light svg[class*="upsellIcon_"] {
-  color: var(--darkminus-f5c2e7) !important;
+  color: var(--darkminus-dark-pink) !important;
 }
 [class*="lookFilled_"][class*="colorBrand_"],
 [class*="lookFilled_"][class*="colorBrandNew_"],
@@ -3566,29 +3566,29 @@ html {
   color: var(--darkminus-main);
 }
 [class*="lookFilled_"][class*="colorPrimary_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 button[class*="lookFilled_"][class*="colorRed_"]:active {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 [class*="lookOutlined_"][class*="colorPrimary_"] {
-  border-color: var(--darkminus-45475a);
+  border-color: var(--darkminus-darky-grey);
 }
 [class*="lookOutlined_"][class*="colorPrimary_"]:hover {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
-  border-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  border-color: var(--darkminus-darky-grey);
 }
 div[class^="actionButtons"] [class^="button"][class*="buttonColor_"],
 div[class^="actionButtons"] [class^="button"] [class*="buttonColor_"] {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="actionButtons"]
   [class^="button"][class*="buttonColor_"][class*="buttonActive_"],
 div[class^="actionButtons"]
   [class^="button"]
   [class*="buttonColor_"][class*="buttonActive_"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
   color: var(--darkminus-main);
 }
 div[class^="actionButtons"]
@@ -3619,11 +3619,11 @@ div[class^="actionButtons"]
 }
 .theme-dark [class*="lookLink_"][class*="colorPrimary_"],
 .theme-light [class*="lookLink_"][class*="colorPrimary_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark [class*="lookFilled_"][class*="colorTransparent_"],
 .theme-light [class*="lookFilled_"][class*="colorTransparent_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-313244);
 }
 div[class*="button_"][class*="dangerous_"]:hover {
@@ -3633,11 +3633,11 @@ div[role="radio"][class*="selected"] {
   color: var(--darkminus-main);
 }
 div[role="radio"][class*="selected"][class*="allow"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 [class*="container_"][style*="background_color: var(__green_360)"] {
-  --green-360: var(--darkminus-a6e3a1);
-  background-color: var(--darkminus-a6e3a1) !important;
+  --green-360: var(--darkminus-darkish-green);
+  background-color: var(--darkminus-darkish-green) !important;
 }
 [class*="container_"][style*="background_color: var(__primary_400)"],
 [class*="container_"][style*="background_color: #82858F"] {
@@ -3653,13 +3653,13 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--text-muted);
 }
 [class*="topGuildEmojiBadge_"] {
-  background: linear-gradient(268.26deg, #fab387, var(--darkminus-a6e3a1) 102.45%);
+  background: linear-gradient(268.26deg, #fab387, var(--darkminus-darkish-green) 102.45%);
 }
 [class*="topGuildEmojiBadge_"] * {
   color: var(--darkminus-main) !important;
 }
 [class*="newlyAddedBadge_"] {
-  background: linear-gradient(268.26deg, #94e2d5, var(--darkminus-a6e3a1) 102.45%);
+  background: linear-gradient(268.26deg, #94e2d5, var(--darkminus-darkish-green) 102.45%);
 }
 [class*="newlyAddedBadge_"] * {
   color: var(--darkminus-main) !important;
@@ -3670,16 +3670,16 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] button[class^="backButton"][class*="lookBlank"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"]
   svg[class^="icon"] {
-  fill: var(--darkminus-f5c2e7) !important;
+  fill: var(--darkminus-dark-pink) !important;
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"][class*="selected_"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main) !important;
 }
 div[class^="sidebarRegion"]
@@ -3688,7 +3688,7 @@ div[class^="sidebarRegion"]
   fill: var(--darkminus-main) !important;
 }
 div[class^="sidebarRegion"] div[class^="premiumTab"] > div > svg > path {
-  fill: var(--darkminus-f5c2e7);
+  fill: var(--darkminus-dark-pink);
 }
 div[class^="sidebarRegion"] div[class^="premiumTab"] > div[class*="selected"] {
   color: var(--darkminus-main);
@@ -3708,7 +3708,7 @@ div[class^="sidebarRegion"]
 div[class^="sidebarRegion"]
   div[class*="tabBarItemContainer_"]
   [class*="textBadge_"][style*="background-color: var(--brand-500);"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 div[class^="contentRegion"]
   div[class*="noticeRegion_"]
@@ -3721,12 +3721,12 @@ div[class^="contentRegion"] div[class^="streamerModeEnabledBtn"] {
 }
 div[class^="contentRegion"] [class^="bar"] :not(div[class^="barFill"]),
 div[class^="contentRegion"] [class^="markDash"] {
-  background: var(--darkminus-45475a);
+  background: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(139,"] {
-  border-color: var(--darkminus-a6e3a1);
+  border-color: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
@@ -3736,21 +3736,21 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class^="radioBar"][style*="hsl(359,"] {
-  border-color: var(--darkminus-a6e3a1);
+  border-color: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   [id="privacy-&-safety-tab"]
   div[class*="betaTagIcon"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 div[class^="contentRegion"] #accessibility-tab button[class*="colorBrandNew"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
   circle[class^="circleProgress"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -3767,7 +3767,7 @@ div[class^="contentRegion"]
   #nitro-server-boost-tab
   button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -3776,7 +3776,7 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #nitro-server-boost-tab div[class*="card_"],
 div[class^="contentRegion"] #nitro-server-boost-tab h3[class*="price_"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #keybinds-tab span[class*="key"] {
   color: var(--darkminus-main);
@@ -3792,31 +3792,31 @@ div[class^="contentRegion"] #library-inventory-tab div[class^="promotionIcon"] {
   background-color: var(--darkminus-main2);
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="buttonWhite"] {
-  color: var(--darkminus-sec3) !important;
-  border-color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
+  border-color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab h2 {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab svg[class*="sparkleStar_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="description_"] {
   color: #bac2de !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="card_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
   div[class*="card_"]
   div[class^="item"]
   div {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
@@ -3830,12 +3830,12 @@ div[class^="contentRegion"] #billing-tab [class*="Divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="defaultIndicator"] {
-  color: var(--darkminus-sec3);
-  background-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class*="summaryInfo"],
 div[class^="contentRegion"] #billing-tab [class^="paymentHeader"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
@@ -3845,23 +3845,23 @@ div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"] #billing-tab [class*="paymentText_"] {
   color: #bac2de;
 }
 div[class^="contentRegion"] #billing-tab div[class^="codeRedemptionRedirect"] {
   background-color: var(--darkminus-main6);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   border-color: var(--darkminus-313244);
 }
 div[class^="contentRegion"]
   [id="voice-&-video-tab"]
   div[class^="backgroundOptionRing"] {
-  border-color: var(--darkminus-other);
+  border-color: var(--darkminus-light-grey);
 }
 div[class^="contentRegion"]
   [id="voice-&-video-tab"]
@@ -3872,7 +3872,7 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #notifications-tab
   button[class*="marketingUnsubscribeButton_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="nowPlayingAdd_"],
 div[class^="contentRegion"] #game-activity-tab div[class*="lastPlayed_"],
@@ -3896,7 +3896,7 @@ div[class^="contentRegion"]
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #game-activity-tab input[class^="gameName"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #game-activity-tab
@@ -3906,7 +3906,7 @@ div[class^="contentRegion"]
   input[class*="gameNameInput_"]:focus {
   background-color: var(--darkminus-main6);
   border-color: rgba(24, 24, 37, 0.3);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="game_"] {
   -webkit-box-shadow: 0 1px 0 0 var(--background-modifier-accent);
@@ -3921,15 +3921,15 @@ div[class^="contentRegion"] #emoji-tab div[class*="emojiRemove_"] {
 div[class^="contentRegion"]
   section[class^="inputSensitivityToggle"]
   div[class^="inputSensitivityBar"] {
-  background: var(--darkminus-45475a);
+  background: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   section[class^="inputSensitivityToggle"]
   div[class^="inputSensitivityBar"][class*="speaking_"] {
-  background: var(--darkminus-a6e3a1) !important;
+  background: var(--darkminus-darkish-green) !important;
 }
 div[class^="contentRegion"] div[class*="reactionMe_"] {
-  background-color: var(--darkminus-313244) !important;
+  background-color: var(--darkminus-kinda-dark-grey)!important;
 }
 div[class^="contentRegion"]
   div[class^="switch"]
@@ -3950,12 +3950,12 @@ div[class^="contentRegion"] div[class^="control"] > div[class*="checked_"],
 div[class^="contentRegion"] div[class^="sensitivity"] div[class*="checked_"],
 div[class^="contentRegion"]
   div[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 div[class^="contentRegion"] #guild_premium-tab [class*="tierAccomplished_"],
 div[class^="contentRegion"] #guild_premium-tab [class*="tierCurrent_"],
 div[class^="contentRegion"] #guild_premium-tab [class*="tierFirst_"] {
-  background: var(--darkminus-f5c2e7);
+  background: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"] #guild_premium-tab [class*="tierInProgress_"] {
   background-color: var(--darkminus-main);
@@ -3974,7 +3974,7 @@ div[class^="contentRegion"]
   > svg
   > g
   > rect:nth-child(2) {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierHeaderUnlocked"],
 div[class^="contentRegion"] #guild_premium-tab div[class^="tierHeaderLocked"] {
@@ -3989,7 +3989,7 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   div[class^="tierUnlocked"] {
-  background-image: linear-gradient(90deg, var(--darkminus-other), #cba6f7);
+  background-image: linear-gradient(90deg, var(--darkminus-light-grey), #cba6f7);
   color: var(--darkminus-main);
   font-weight: 600;
 }
@@ -4001,7 +4001,7 @@ div[class^="contentRegion"]
   #guild_premium-tab
   div[class^="tierHeaderLocked"]
   svg[class^="tierIcon"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="contentRegion"]
   #guild_premium-tab
@@ -4029,14 +4029,14 @@ div[class^="contentRegion"] #guild_premium-tab div[class^="tierBody"] {
 }
 div[class^="contentRegion"] svg[class^="activeCircle"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #discovery-tab
   div[class*="checklistIcon"]
   svg[viewBox="0 0 14 14"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #discovery-tab
@@ -4049,13 +4049,13 @@ div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"][viewBox="0 0 24 24"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
   svg[class*="descriptionIcon"][viewBox="0 0 14 14"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="contentRegion"]
   #guild_templates-tab
@@ -4096,10 +4096,10 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #profile-customization-tab
   div[class^="imageUploaderIcon_"] {
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #appearance-tab div[class^="selectionCircle"] {
-  box-shadow: inset 0 0 0 2px var(--darkminus-other), inset 0 0 0 4px var(--background-primary);
+  box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 4px var(--background-primary);
 }
 div[class^="contentRegion"]
   #appearance-tab
@@ -4114,7 +4114,7 @@ div[class^="contentRegion"]
   svg[class^="checkmarkCircle"]
   > g
   > path {
-  fill: var(--darkminus-other) !important;
+  fill: var(--darkminus-light-grey) !important;
 }
 .theme-light
   div[class^="contentRegion"]
@@ -4126,7 +4126,7 @@ div[class^="contentRegion"] #overview-tab div[class^="addTags"] svg path {
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #onboarding-tab div[class*="heroQuotes"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
@@ -4147,13 +4147,13 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #onboarding-tab div[class^="addPrompt"],
 div[class^="contentRegion"] #onboarding-tab div[class^="addActionItem"] {
-  border: 2px dashed var(--darkminus-45475a);
+  border: 2px dashed var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
   div[class^="badExample"]
   div[class^="example"] {
-  border: 2px solid var(--darkminus-45475a);
+  border: 2px solid var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
@@ -4166,29 +4166,29 @@ div[class^="contentRegion"] #developer-options-tab kbd {
   color: var(--darkminus-main);
 }
 .bd-settings-title {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .bd-switch-body {
   --switch-color: #585b70;
 }
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: var(--darkminus-a6e3a1);
+  --switch-color: var(--darkminus-darkish-green);
 }
 .bd-switch input:checked + .bd-switch-body svg.bd-switch-symbol path {
   fill: #328e2a;
 }
 .bd-button {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 .bd-button.bd-button-danger {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 .bd-controls > .bd-addon-button svg {
   fill: var(--darkminus-main);
 }
 .bd-addon-views .bd-view-button.selected {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 .bd-addon-views .bd-view-button.selected svg {
   fill: var(--darkminus-main);
@@ -4200,13 +4200,13 @@ div[class^="perksModal"] li[class^="perk"] {
   background-color: var(--darkminus-main6);
 }
 div[class^="perksModal"] li[class^="perk"] svg {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="perksModal"] svg[class^="giftIcon"] {
   color: var(--darkminus-main);
 }
 div[class^="perksModal"] div[class^="tierHeaderUnlocked"] {
-  background-image: linear-gradient(90deg, var(--darkminus-other), #cba6f7);
+  background-image: linear-gradient(90deg, var(--darkminus-light-grey), #cba6f7);
   color: var(--darkminus-main2);
 }
 div[class^="perksModal"] div[class^="tierUnlocked"],
@@ -4219,16 +4219,16 @@ div[class^="perksModal"] div[class^="tierBody"] {
   background-color: var(--darkminus-main) !important;
 }
 div[class^="perksModal"] div[class^="tierMarkerAccomplished"] {
-  background: var(--darkminus-f5c2e7) !important;
+  background: var(--darkminus-dark-pink) !important;
 }
 div[class^="perksModal"]
   div[class^="tierMarkerInProgress"]
   [class^="currentTierIcon"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="perksModal"] div[class^="barForeground"],
 div[class^="perksModal"] div[class^="tierMarkerAccomplished"] {
-  background-color: var(--darkminus-f5c2e7);
+  background-color: var(--darkminus-dark-pink);
 }
 div[class^="perksModal"] svg[class^="currentTierIcon"] {
   color: var(--darkminus-main2);
@@ -4247,17 +4247,17 @@ div[class^="perksModal"] div[class^="tierHeaderLocked"] {
   color: var(--text-muted);
 }
 div[class^="perksModal"] svg[class*="unlocked"] {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 div[class^="sidebar"] div[class^="container"] div[class^="progressBar"] {
-  background: linear-gradient(90deg, var(--darkminus-other), #cba6f7);
+  background: linear-gradient(90deg, var(--darkminus-light-grey), #cba6f7);
 }
 div[class^="sidebar"] div[class^="container"]:hover div[class^="progressBar"] {
   background: linear-gradient(
     90deg,
-    var(--darkminus-other),
+    var(--darkminus-light-grey),
     #cba6f7 34%,
-    var(--darkminus-other) 67%,
+    var(--darkminus-light-grey) 67%,
     #cba6f7
   );
   background-size: 300% 100%;
@@ -4289,7 +4289,7 @@ div[class^="homeContainer"] {
   background: var(--darkminus-main) !important;
 }
 div[class^="homeContainer"] > div[class^="homeContent"] div[class*="card_"] {
-  background: var(--darkminus-313244) !important;
+  background: var(--darkminus-kinda-dark-grey)!important;
 }
 section[class^="title"] {
   background: var(--background-primary) !important;
@@ -4318,7 +4318,7 @@ div[class*="directoryModal_"] [role="button"][class*="activeButton"] {
 section[class^="guildListSection"]
   div[class^="guildList"]:first-child
   div[class^="iconContainer"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 section[class^="guildListSection"]
   div[class^="guildList"]:first-child
@@ -4333,7 +4333,7 @@ path[d="M17.225 6.06504C17.3227 6.00866 17.4362 5.98608 17.548 6.00084C17.6598 6
   fill: var(--darkminus-main);
 }
 div[class^="tierPreviews"] button[class^="button"] {
-  background: linear-gradient(90deg, #94e2d5, var(--darkminus-other));
+  background: linear-gradient(90deg, #94e2d5, var(--darkminus-light-grey));
 }
 div[class^="notice"] div[class*="noticeText_"] {
   color: var(--darkminus-main);
@@ -4364,7 +4364,7 @@ div[class^="standardSidebarView"]
   div[class^="noticeRegion"]
   div[class^="actions"]
   button {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   color: var(--darkminus-main) !important;
   border-color: var(--darkminus-main);
 }
@@ -4402,7 +4402,7 @@ div[class^="standardSidebarView"]
 }
 div[class^="premiumFeatureBorder"] {
   background: linear-gradient(var(--darkminus-main), var(--darkminus-main)) padding-box,
-    linear-gradient(45deg, #cba6f7, var(--darkminus-f5c2e7)) border-box;
+    linear-gradient(45deg, #cba6f7, var(--darkminus-dark-pink)) border-box;
 }
 div[class^="premiumFeatureBorder"] div[class^="premiumBackground"] {
   background: linear-gradient(
@@ -4417,14 +4417,14 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   svg
   g {
-  fill: var(--darkminus-sec3);
+  fill: var(--darkminus-dark-grey);
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
   div[class^="premiumCards"]
   div[class*="item"]
   div[class^="text"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -4435,7 +4435,7 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   h2
   span {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -4463,7 +4463,7 @@ div[class^="shop"]
   div[class^="heroBanner"]
   div[class^="heroDescription"]
   div[class^="text"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="shop"]
   div[class^="heroBanner"]
@@ -4487,7 +4487,7 @@ div[class^="layerContainer"]
   div[class^="collectibleInfoContainer"]
   button[class^="shinyButton"]
   svg {
-  fill: var(--darkminus-f5c2e7);
+  fill: var(--darkminus-dark-pink);
 }
 div[class^="layerContainer"]
   div[class^="collectibleInfoContainer"]
@@ -4537,7 +4537,7 @@ div[class^="upperBadge"] > div[class^="iconBadge"] path {
   color: var(--darkminus-main);
 }
 div[class^="upperBadge"] div[class*="participating_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class^="lowerBadge"] div[class^="iconBadge"] path {
   color: var(--darkminus-main);
@@ -4550,8 +4550,8 @@ div[class^="spineBorder"] {
 }
 ul[aria-label$=" threads"] > li:nth-child(1n) {
   --channels-default: #d8c0dd;
-  --interactive-hover: var(--darkminus-a6e3a1);
-  --interactive-active: var(--darkminus-a6e3a1);
+  --interactive-hover: var(--darkminus-darkish-green);
+  --interactive-active: var(--darkminus-darkish-green);
 }
 ul[aria-label$=" threads"] > li:nth-child(2n) {
   --channels-default: #dbccd3;
@@ -4565,13 +4565,13 @@ ul[aria-label$=" threads"] > li:nth-child(3n) {
 }
 ul[aria-label$=" threads"] > li:nth-child(4n) {
   --channels-default: #c1dadb;
-  --interactive-hover: var(--darkminus-a6e3a1);
-  --interactive-active: var(--darkminus-a6e3a1);
+  --interactive-hover: var(--darkminus-darkish-green);
+  --interactive-active: var(--darkminus-darkish-green);
 }
 ul[aria-label$=" threads"] > li:nth-child(5n) {
   --channels-default: #b9ccf6;
-  --interactive-hover: var(--darkminus-sec);
-  --interactive-active: var(--darkminus-sec);
+  --interactive-hover: var(--darkminus-blue-violet);
+  --interactive-active: var(--darkminus-blue-violet);
 }
 ul[aria-label$=" threads"] > li:nth-child(6n) {
   --channels-default: #ccc8f5;
@@ -4587,18 +4587,18 @@ svg[class*="botTagVerified_"] {
 }
 div[class*="activePostCount_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="newPostCount_"] {
-  background-color: var(--darkminus-sec3);
+  background-color: var(--darkminus-dark-grey);
   color: var(--darkminus-main);
 }
 div[class*="liveSmall_"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
   color: var(--darkminus-main);
 }
 div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 [class^="chatContent"] div[class*="wrapperAudio_"] div[class*="audioControls"],
 [class^="chatContent"] div[class*="wrapperAudio_"] div[class*="videoControls_"],
@@ -4649,11 +4649,11 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   border-radius: 0.4rem;
 }
 [class^="chatContent"] div[class*="isBurstReactionPicker_"] {
-  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-sec2);
+  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-dark-blue-violet);
 }
 [class^="chatContent"] div[class^="navButtonSuperReactActive"],
 [class^="chatContent"] div[class^="navButtonSuperReactActive"]:hover {
-  background: linear-gradient(270deg, var(--darkminus-f5c2e7), var(--darkminus-sec2) 33.63%, #cba6f7);
+  background: linear-gradient(270deg, var(--darkminus-dark-pink), var(--darkminus-dark-blue-violet) 33.63%, #cba6f7);
   color: var(--darkminus-main);
 }
 [class^="chatContent"] div[class*="betaTag_"] {
@@ -4665,12 +4665,12 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   color: var(--darkminus-main);
 }
 [class^="chatContent"] div[class*="colorPremiumGradient_"][class*="focused_"] {
-  background: linear-gradient(270deg, var(--darkminus-f5c2e7), var(--darkminus-sec2) 33.63%, #cba6f7);
+  background: linear-gradient(270deg, var(--darkminus-dark-pink), var(--darkminus-dark-blue-violet) 33.63%, #cba6f7);
   color: var(--darkminus-main) !important;
 }
 [class^="chatContent"] div[class*="isBurstReactionPicker"] {
   border: none;
-  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-sec2);
+  box-shadow: 0 0 0 2px #cba6f7, 0 0 16px var(--darkminus-dark-blue-violet);
 }
 [class^="chatContent"] div[class*="playButtonContainer_"] {
   background: var(--brand-experiment) !important;
@@ -4713,7 +4713,7 @@ div[class^="bar"] svg[class^="voiceChannelsIcon"] path {
   div[class^="cardWrapper"]
   div[class*="completed_"]
   svg[class^="checkmark"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
   color: var(--darkminus-main);
 }
 div[style*="d1382af8d9e755bc44811b1fd92990a8.svg"] {
@@ -4728,7 +4728,7 @@ main[class^="chatContent"]
   div[id^="message-content"]
   svg[class^="icon"]
   > path[d="M2 4.83V7.17L4 9.17L6 7.17V4.83L4 2.83L2 4.83Z"] {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 .theme-dark span[class^="spoilerContent"],
 .theme-dark div[class^="spoilerContent"],
@@ -4863,12 +4863,12 @@ main[class^="chatContent"]
 }
 .theme-dark div[class^="spoilerContainer"] div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"] div[class^="spoilerWarning"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: rgba(17, 17, 27, 0.7);
 }
 .theme-dark div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main);
 }
 .theme-dark div[class^="spoilerContainer"] article[class*="embedFull_"],
@@ -4891,16 +4891,16 @@ div[class*="autocomplete_"] div[class*="autocompleteRowContentSecondary"] {
   background-color: #00000000;
 }
 div[class*="autocomplete_"] div[class^="usageWrapper"] > div[class*="title_"] {
-  color: var(--darkminus-sec) !important;
+  color: var(--darkminus-blue-violet) !important;
 }
 div[class*="autocomplete_"] strong {
-  color: var(--darkminus-other) !important;
+  color: var(--darkminus-light-grey) !important;
 }
 div[class^="channelTextArea"] button[class*="emojiButton_"] {
   background: #00000000 !important;
 }
 [class^="uploadDropModal"][class*="error"] {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 [class^="uploadDropModal"] div[class^="inner"] {
   border-color: var(--darkminus-main);
@@ -4971,14 +4971,14 @@ div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   svg[class^="discordIcon"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 div[class^="chat"]
   > div[class^="content"]
   > div[class^="container"]
   div[class^="newBadge"] {
-  background-color: var(--darkminus-sec2) !important;
+  background-color: var(--darkminus-dark-blue-violet) !important;
   color: var(--darkminus-main);
 }
 div[class^="chat"]
@@ -4989,8 +4989,8 @@ div[class^="chat"]
 }
 div[class^="sidebar"] > section[class^="panels"] svg[class*="buttonIcon_"],
 div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
-  fill: var(--darkminus-sec3);
-  color: var(--darkminus-sec3);
+  fill: var(--darkminus-dark-grey);
+  color: var(--darkminus-dark-grey);
 }
 [data-list-id^="forum-channel-list"]
   div[class^="body"]
@@ -5000,14 +5000,14 @@ div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
 }
 [data-list-id^="forum-channel-list"]
   button[class^="submitButton"][class*="colorBrand"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 div[class^="applicationCommand"] span[class*="selectedPill_"] {
-  border-color: var(--darkminus-other) !important;
+  border-color: var(--darkminus-light-grey) !important;
 }
 div[class^="applicationCommand"] span[class*="erroredPill_"] {
-  border-color: var(--darkminus-a6e3a1) !important;
+  border-color: var(--darkminus-darkish-green) !important;
 }
 div[class^="chat"]
   > div[class^="content"]
@@ -5016,7 +5016,7 @@ div[class^="chat"]
   background-color: var(--background-secondary);
 }
 [class*="channelTextAreaInnerError_"] {
-  border: 1px solid var(--darkminus-a6e3a1) !important;
+  border: 1px solid var(--darkminus-darkish-green) !important;
 }
 div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
@@ -5037,7 +5037,7 @@ div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
   > div[class^="container"]:not([class*="cozy"])
   div[class^="iconWrapper"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 div[class^="messagesWrapper"]
   ol[class^="scrollerInner"]
@@ -5056,7 +5056,7 @@ div[class^="callContainer"] [class*="controlIcon_"] {
   color: #bac2de;
 }
 div[class^="callContainer"] [class*="controlIcon_"]:hover {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="tile_"],
 div[class^="callContainer"] div[class*="background_"] {
@@ -5065,22 +5065,22 @@ div[class^="callContainer"] div[class*="background_"] {
 div[class^="callContainer"] div[class*="overlayTitle"],
 div[class^="callContainer"] svg[class*="status_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="header"],
 div[class^="callContainer"] svg[class*="selectedIcon_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="button_"][class*="contents_"],
 div[class^="callContainer"] button[class*="cta_"],
 div[class^="callContainer"] button[class*="participantsButton_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="indicators"]
   div[class^="liveQualityIndicator"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 div[class^="callContainer"]
   div[class^="indicators"]
@@ -5098,8 +5098,8 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="bottomControls"]
   button[class^="textButton"] {
-  color: var(--darkminus-sec3);
-  background-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5112,7 +5112,7 @@ div[class^="callContainer"]
   div[class^="toolbar"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"] {
-  background-color: var(--darkminus-45475a) !important;
+  background-color: var(--darkminus-darky-grey) !important;
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5120,7 +5120,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   div[class^="qualityIndicator"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5128,14 +5128,14 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   svg[class^="premiumStreamIcon"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="toolbar"]
   div[class^="liveIndicator"]
   div[class^="live"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
   color: var(--darkminus-main) !important;
 }
 div[class^="callContainer"]
@@ -5143,14 +5143,14 @@ div[class^="callContainer"]
   div[class^="toolbar"]
   div[class*="clipsEnabledIndicator"]
   div[class^="clipBadge"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   button[class*="leftTrayIcon_"][class*="buttonColor_"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
   color: var(--darkminus-main);
@@ -5158,7 +5158,7 @@ div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="red_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5176,25 +5176,25 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"] {
-  background: var(--darkminus-45475a);
-  color: var(--darkminus-sec3);
+  background: var(--darkminus-darky-grey);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   [class*="centerIcon_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   svg[class^="raisedHandButtonIcon"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="green_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5220,7 +5220,7 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"][class*="active_"] {
-  background: var(--darkminus-sec3);
+  background: var(--darkminus-dark-grey);
 }
 div[class^="chat"] section[class*="forumOrHome_"] {
   background-color: var(--darkminus-main2);
@@ -5235,7 +5235,7 @@ div[class*="giftCodeContainer"] [class*="tile"] {
   background-color: var(--darkminus-main6);
 }
 div[class*="giftCodeContainer"] [class*="tile"] > [class*="description"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="chat_"] section[class*="header_"] {
   background-color: var(--darkminus-main);
@@ -5293,7 +5293,7 @@ div[class*="chat_"]
   div[class*="searchBar"]
   span[class*="search"] {
   background-color: var(--darkminus-313244);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 nav[class*="pageControl"] div[class*="roundButton"][class*="activeButton"],
 nav[class*="pageControl"]
@@ -5305,7 +5305,7 @@ div[class*="chat_"] li[class*="mainCard_"][class*="container"] {
   background-color: var(--darkminus-313244);
 }
 div[class*="chat_"] li[class*="mainCard_"][class*="container"]:hover {
-  background-color: var(--darkminus-45475a);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class*="chat_"]
   li[class*="mainCard_"][class*="container"]
@@ -5340,7 +5340,7 @@ div[class*="chat_"] div[class*="innerHeader"]:after {
   color: #a6adc8;
 }
 [id*="message-accessories-"] > [class*="invite_"] [class*="partyStatus_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 [class^="avatar"] [class^="dots"] {
   color: var(--darkminus-main2);
@@ -5353,7 +5353,7 @@ div[class^="chat"] div[class^="homeContainer"] {
   height: 100%;
 }
 .messagelogger-deleted div {
-  color: var(--darkminus-a6e3a1) !important;
+  color: var(--darkminus-darkish-green) !important;
 }
 .messagelogger-deleted div a {
   color: #f17497 !important;
@@ -5362,7 +5362,7 @@ aside[class^="membersWrap"] {
   height: 100%;
 }
 div[class^="upperContainer"] div[class^="akaBadge"] {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   color: var(--darkminus-main);
 }
 div[class^="message"][class*="isSystemMessage"]
@@ -5386,7 +5386,7 @@ div[class^="layerContainer"] [role="menu"] {
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"][class*="colorBrand"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5425,7 +5425,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="caret"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5436,7 +5436,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]:active:not([class*="hideInteraction_"]) {
-  color: var(--darkminus-main0);
+  color: var(--darkminus-floating);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5448,7 +5448,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]:active:not([class*="hideInteraction_"])
   [class*="checkbox_"] {
-  color: var(--darkminus-main0);
+  color: var(--darkminus-floating);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5473,7 +5473,7 @@ div[class^="layerContainer"]
   div[id^="account-switch-account"][class*="focused"]
   svg[class^="activeIcon"]
   circle {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5496,7 +5496,7 @@ div[class^="layerContainer"]
   svg[class^="activeIcon"]
   g
   path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5505,7 +5505,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="check_"] {
-  color: var(--darkminus-main0);
+  color: var(--darkminus-floating);
   background-color: var(--darkminus-discord-red);
 }
 div[class^="layerContainer"]
@@ -5513,7 +5513,7 @@ div[class^="layerContainer"]
   #guild-header-popout-premium-subscribe
   div[class^="iconContainer"]
   > svg {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5538,7 +5538,7 @@ div[class^="layerContainer"]
   div[class*="flowerStarContainer_"]
   svg[class*="flowerStar_"]
   * {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -5580,7 +5580,7 @@ div[class^="layerContainer"]
   svg[class*="activeIcon"]
   g
   path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 .theme-dark
   div[class^="layerContainer"]
@@ -5653,7 +5653,7 @@ div[class^="layerContainer"]
   div[class*="container"]
   section {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="recentMentionsPopout"]
   div[class^="header"]
@@ -5673,7 +5673,7 @@ div[class*="recentMentionsPopout"]
 }
 div[class*="recentMentionsPopout"] div[class^="scroller"] [role="button"] {
   --background-tertiary: #a6adc826;
-  --darkminus-main0: #a6adc81f;
+  --darkminus-floating: #a6adc81f;
 }
 div[class*="recentMentionsPopout"]
   div[class^="scroller"]
@@ -5715,10 +5715,10 @@ div[class*="layerContainer"]
 div[class*="layerContainer"]
   > div[class*="layer"]
   div[class*="friendSelected"] {
-  background: var(--darkminus-313244) !important;
+  background: var(--darkminus-kinda-dark-grey)!important;
 }
 section[class*="positionContainer_"] button[class*="navButtonActive"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   color: var(--darkminus-main);
 }
 .theme-light #gif-picker-tab-panel {
@@ -5734,12 +5734,12 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   background-color: var(--brand-experiment-25a);
 }
 #emoji-picker-tab-panel [class*="newlyAddedHighlight_"] {
-  border: 1px solid var(--darkminus-a6e3a1);
+  border: 1px solid var(--darkminus-darkish-green);
 }
 #emoji-picker-tab-panel
   [class*="newlyAddedHighlight_"]
   ~ [class*="newlyAddedBadge_"] {
-  background: var(--darkminus-a6e3a1) !important;
+  background: var(--darkminus-darkish-green) !important;
   color: var(--darkminus-main);
 }
 [class*="stickerInspected_"] [class^="inspectedIndicator"] {
@@ -5768,13 +5768,13 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   button[class^="modalCloseButton"],
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h2,
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h3 {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-light
   div[class^="focusLock"]
   div[class^="downloadApps"]
   div[class*="footer_"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
   background-color: unset !important;
 }
 .theme-light
@@ -5782,7 +5782,7 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   div[class^="downloadApps"]
   div[class*="footer_"]
   a {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-light
   div[class^="focusLock"]
@@ -5855,7 +5855,7 @@ div[class^="layerContainer"]
   div[role="listbox"]
   div[class*="queryText_"]
   strong {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -5935,7 +5935,7 @@ div[class^="layerContainer"]
   div[class^="focusLock"]
   div[class^="contentWrapper"]
   span {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -5982,7 +5982,7 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   h6[class^="fixed"] {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -6008,7 +6008,7 @@ div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="focusLock"]
   h6[class^="fixed"]:after {
-  background-color: var(--darkminus-a6e3a1);
+  background-color: var(--darkminus-darkish-green);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -6044,7 +6044,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   > div[class*="layer"]
   div[class^="checkbox"][class*="checked_"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
   border: none;
 }
 div[class^="layerContainer"]
@@ -6066,7 +6066,7 @@ div[class^="layerContainer"] div[class^="queryContainer"] {
   background-color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] div[class^="queryContainer"] span[class^="key"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main2);
 }
 div[class^="layerContainer"] [class*="tooltipBrand_"],
@@ -6107,9 +6107,9 @@ div[class*="cardWarning_"] div[class*="warning_"] {
     left top,
     from(#f5c2e7),
     color-stop(33.33%, #cba6f7),
-    to(var(--darkminus-other))
+    to(var(--darkminus-light-grey))
   );
-  background: linear-gradient(270deg, var(--darkminus-f5c2e7), #cba6f7 33.33%, var(--darkminus-other));
+  background: linear-gradient(270deg, var(--darkminus-dark-pink), #cba6f7 33.33%, var(--darkminus-light-grey));
 }
 button#reaction-picker-tab div[class^="contents"] {
   color: var(--darkminus-main);
@@ -6146,16 +6146,16 @@ div[class^="planOptionClickableContainer"] span[class*="planOptionDiscount_"] {
   background-color: var(--darkminus-main) !important;
 }
 .react-datepicker__day:active {
-  background: var(--darkminus-other) !important;
+  background: var(--darkminus-light-grey) !important;
 }
 .react-datepicker__day--selected:after {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 [class^="datePickerHint"] [class^="hintValue"] {
   color: var(--darkminus-main) !important;
 }
 div[class*="layerContainer_"] div[class^="control"] div[class*="checked_"] {
-  background-color: var(--darkminus-a6e3a1) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 div[class*="layerContainer_"]
   div[class^="control"]
@@ -6168,14 +6168,14 @@ div[class*="layerContainer_"] div[class*="guildPopout_"][role="dialog"] {
 div[class*="layerContainer_"]
   div[class*="guildPopout_"][role="dialog"]
   div[class*="guildName_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"] {
   color: #7f849c !important;
   opacity: 1;
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"]:hover {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="userPopoutOuter_"] div[aria-label="HypeSquad Bravery"] img,
 div[class*="userProfileOuter_"] div[aria-label="HypeSquad Bravery"] img {
@@ -6209,16 +6209,16 @@ div[class*="userProfileOuter_"]
   > div[class^="section"]:first-child
   > div[class^="buttonsContainer"]
   > button:nth-child(2) {
-  background: var(--darkminus-other);
+  background: var(--darkminus-light-grey);
 }
 [class*="layerContainer_"] [id^="slate_toolbar"] {
-  background-color: var(--darkminus-main0);
+  background-color: var(--darkminus-floating);
 }
 [class*="layerContainer_"]
   [id^="slate_toolbar"]
   [class*="buttons_"]
   [class*="icon_"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 [class*="layerContainer_"]
   div[id="sort_and_view"]
@@ -6233,14 +6233,14 @@ div[class^="layerContainer"]
   div[aria-label="clyde"]
   div[class^="profileBadges"]
   div[class^="textBadge"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   button[class^="messageClydeButton"] {
-  color: var(--darkminus-sec3);
-  background-color: var(--darkminus-45475a);
+  color: var(--darkminus-dark-grey);
+  background-color: var(--darkminus-darky-grey);
 }
 div[class^="layerContainer"]
   div[aria-label="clyde"]
@@ -6250,7 +6250,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   div[class^="pencilContainer"]
   svg[class^="editIcon"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="keyboardShortcutsModal"] span[class^="key"] {
   color: var(--darkminus-main) !important;
@@ -6259,7 +6259,7 @@ div[class^="keyboardShortcutsModal"] span[class^="key"] svg g {
   fill: var(--darkminus-main) !important;
 }
 [class*="disabledPointerEvents"] {
-  --darkminus-main0: var(--darkminus-313244);
+  --darkminus-floating: var(--darkminus-313244);
   --background-tertiary: #242437;
 }
 [class*="disabledPointerEvents"] svg[class^="activityIcon"] {
@@ -6291,7 +6291,7 @@ div[class*="phoneFieldPopout"] {
 }
 div[class*="phoneFieldPopout"] div[class^="countryName"],
 div[class*="phoneFieldPopout"] div[class^="countryCode"] {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="customColorPicker"] {
   background: var(--darkminus-main6) !important;
@@ -6340,12 +6340,12 @@ div[class^="layerContainer"]
   div[class^="activityStreamPreview"]
   div[class*="content"]
   div {
-  color: var(--darkminus-sec3) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
   div[class^="newBadge"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
@@ -6354,7 +6354,7 @@ div[class^="layerContainer"]
   color: var(--darkminus-main);
 }
 div[class^="containerTop"] div[class^="toast"] svg path[fill="#3BA55C"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 div[class^="oauth2Wrapper"] div[class^="scope"] svg {
   color: var(--darkminus-main);
@@ -6370,13 +6370,13 @@ rect[fill="#299f5b"],
 foreignObject[mask="url(#svg-mask-status-online)"] > div,
 div[class^="dotOnline"],
 i[class^="statusOnline"] {
-  fill: var(--darkminus-a6e3a1) !important;
-  background-color: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
+  background-color: var(--darkminus-darkish-green) !important;
 }
 svg[fill="#23a55a"],
 rect[fill="#23a55a"],
 rect[fill="#299f5b"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 rect[fill="#f0b232"],
 #account-status-picker--idle foreignObject > div[class^="status__"],
@@ -6430,16 +6430,16 @@ rect[fill="#5b3a91"] {
   -webkit-mask-image: url("https://discord.com/assets/eaeac24163b35f7526704a3d9b3c7722.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 .vc-user-connection [src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"] {
   padding: 16px;
 }
 #vencordthemes-tab [class*="input_"]:focus {
-  border-color: var(--darkminus-other) !important;
+  border-color: var(--darkminus-light-grey) !important;
 }
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
   color: var(--darkminus-main);
 }
 span[class*="username_"][style*="color: #36393E"],
@@ -6449,7 +6449,7 @@ span[class*="username_"][style*="color: #353940"] {
 div[class^="flowerStarContainer"][class*="verified_"]
   svg[class^="flowerStar"]
   path {
-  fill: var(--darkminus-a6e3a1);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierOne_"]
   svg[class*="flowerStar_"]
@@ -6467,24 +6467,24 @@ div[class^="flowerStarContainer"][class*="iconBackgroundTierTwo_"]
   div[class^="childContainer"]
   svg
   path {
-  fill: var(--darkminus-sec3);
+  fill: var(--darkminus-dark-grey);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierThree_"]
   svg[class*="flowerStar_"]
   path {
-  fill: var(--darkminus-f5c2e7);
+  fill: var(--darkminus-dark-pink);
 }
 div[class^="flowerStarContainer"][class*="partnered_"]
   svg[class^="flowerStar"]
   path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class^="flowerStarContainer"] div[class^="childContainer"] svg path {
   fill: var(--darkminus-main);
 }
 div[class^="communityInfoPill"] {
   --background-accent: #1e1e2eb3;
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="communityInfoPill"] div[class^="text"] {
   font-weight: 500;
@@ -6497,7 +6497,7 @@ svg[class^="uploadIcon"] {
 }
 .theme-dark h2[class^="emptyStateHeader"],
 .theme-light h2[class^="emptyStateHeader"] {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark p[class^="emptyStateSubtext"],
 .theme-light p[class^="emptyStateSubtext"] {
@@ -6513,13 +6513,13 @@ div[class^="numberBadge"] {
 }
 div[class^="newChannel"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-other) !important;
+  background-color: var(--darkminus-light-grey) !important;
 }
 div[class^="botTag"] {
-  background-color: var(--darkminus-other);
+  background-color: var(--darkminus-light-grey);
 }
 div[class^="addFriendInputWrapper"]:focus-within {
-  border-color: var(--darkminus-other);
+  border-color: var(--darkminus-light-grey);
 }
 #add_friend-tab div[class^="grid"] button img {
   display: none;
@@ -6530,32 +6530,32 @@ div[class^="addFriendInputWrapper"]:focus-within {
   content: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.95431 0 0 8.9543 0 20C0 31.0457 8.95431 40 20 40Z' fill='#A600A1'/%3E%3Cpath d='M20 18.9C19.39 18.9 18.9 19.39 18.9 20C18.9 20.61 19.39 21.1 20 21.1C20.61 21.1 21.1 20.61 21.1 20C21.1 19.39 20.61 18.9 20 18.9ZM20 10C14.48 10 10 14.48 10 20C10 25.52 14.48 30 20 30C25.52 30 30 25.52 30 20C30 14.48 25.52 10 20 10ZM22.19 22.19L14 26L17.81 17.81L26 14L22.19 22.19Z' fill='#11111B'/%3E%3C/svg%3E");
 }
 button[class^="attachButton"] svg path[class^="attachButtonPlay"] {
-  color: var(--darkminus-a6e3a1);
-  fill: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
+  fill: var(--darkminus-darkish-green);
 }
 div[class^="tags"] div[class^="pinIcon"] path {
   fill: var(--darkminus-main2) !important;
 }
 div[class*="avatarSpeaking_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1),
+  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green),
     inset 0 0 0 3px var(--background-secondary);
-  box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1),
+  box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green),
     inset 0 0 0 3px var(--background-secondary);
 }
 div[class*="videoLayer_"]
   > div[class^="tileChild"]
   > div[class^="border"][class*="speaking_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1), inset 0 0 0 3px var(--darkminus-a6e3a1);
-  box-shadow: inset 0 0 0 2px var(--darkminus-a6e3a1), inset 0 0 0 3px var(--darkminus-a6e3a1);
+  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green), inset 0 0 0 3px var(--darkminus-darkish-green);
+  box-shadow: inset 0 0 0 2px var(--darkminus-darkish-green), inset 0 0 0 3px var(--darkminus-darkish-green);
 }
 div[class*="videoLayer_"]
   > div[class^="tileChild"]
   > div[class^="border"][class*="voiceChannelEffect_"] {
-  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-other), inset 0 0 0 3px var(--darkminus-other);
-  box-shadow: inset 0 0 0 2px var(--darkminus-other), inset 0 0 0 3px var(--darkminus-other);
+  -webkit-box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 3px var(--darkminus-light-grey);
+  box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 3px var(--darkminus-light-grey);
 }
 div[class*="featureIcon_"] path {
-  fill: var(--darkminus-other);
+  fill: var(--darkminus-light-grey);
 }
 div[class*="backgroundAccent_"] {
   color: var(--darkminus-main);
@@ -6590,23 +6590,23 @@ div[class^="checkbox"][class*="checked_"] svg path {
   fill: var(--darkminus-main) !important;
 }
 path[class^="updateIconForeground"] {
-  fill: var(--darkminus-a6e3a1) !important;
+  fill: var(--darkminus-darkish-green) !important;
 }
 div[class^="button"][class*="revokeInvite_"] {
   background-color: var(--darkminus-main);
   background-image: url("data:image/svg+xml,%3Csvg height='18' viewBox='0 0 18 18' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m14.25 4.808-1.057-1.058-4.193 4.192-4.192-4.192-1.058 1.058 4.192 4.192-4.192 4.193 1.058 1.057 4.192-4.193 4.193 4.193 1.057-1.057-4.193-4.193z' fill='var(--darkminus-pink)' fill-rule='nonzero'/%3E%3Cpath d='m0 0h18v18h-18z'/%3E%3C/g%3E%3C/svg%3E");
 }
 div[class*="actions_"] button[class*="green_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class*="actions_"] button[class*="red_"] {
-  background: var(--darkminus-a6e3a1);
+  background: var(--darkminus-darkish-green);
 }
 div[class*="actions_"] button svg > path {
   fill: var(--darkminus-main) !important;
 }
 div[class*="actions_"] div[class^="panelButtonContainer"] button svg > path {
-  fill: var(--darkminus-sec3) !important;
+  fill: var(--darkminus-dark-grey) !important;
 }
 div[class*="fixClipping"]
   div[class^="tip"]
@@ -6615,14 +6615,14 @@ div[class*="fixClipping"]
   color: var(--darkminus-main);
 }
 .theme-dark code.hljs {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
   background: var(--darkminus-main2);
 }
 .theme-dark code .hljs-keyword {
   color: #cba6f7;
 }
 .theme-dark code .hljs-built_in {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-type {
   color: #f9e2af;
@@ -6643,13 +6643,13 @@ div[class*="fixClipping"]
   color: #94e2d5;
 }
 .theme-dark code .hljs-regexp {
-  color: var(--darkminus-f5c2e7);
+  color: var(--darkminus-dark-pink);
 }
 .theme-dark code .hljs-string {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-char.escape_ {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-subst {
   color: #a6adc8;
@@ -6667,28 +6667,28 @@ div[class*="fixClipping"]
   color: #fab387;
 }
 .theme-dark code .hljs-title {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-title.class_ {
   color: #f9e2af;
 }
 .theme-dark code .hljs-title.function_ {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-params {
-  color: var(--darkminus-sec3);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark code .hljs-comment {
   color: #585b70;
 }
 .theme-dark code .hljs-doctag {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-meta {
   color: #fab387;
 }
 .theme-dark code .hljs-section {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-tag {
   color: #a6adc8;
@@ -6697,41 +6697,41 @@ div[class*="fixClipping"]
   color: #cba6f7;
 }
 .theme-dark code .hljs-attr {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-attribute {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-bullet {
   color: #94e2d5;
 }
 .theme-dark code .hljs-code {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
 }
 .theme-dark code .hljs-emphasis {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   font-style: italic;
 }
 .theme-dark code .hljs-strong {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   font-weight: bold;
 }
 .theme-dark code .hljs-formula {
   color: #94e2d5;
 }
 .theme-dark code .hljs-link {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   font-style: italic;
 }
 .theme-dark code .hljs-quote {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   font-style: italic;
 }
 .theme-dark code .hljs-selector-tag {
   color: #f9e2af;
 }
 .theme-dark code .hljs-selector-id {
-  color: var(--darkminus-other);
+  color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-selector-class {
   color: #94e2d5;
@@ -6749,11 +6749,11 @@ div[class*="fixClipping"]
   color: #f2cdcd;
 }
 .theme-dark code .hljs-addition {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   background: rgba(166, 227, 161, 0.15);
 }
 .theme-dark code .hljs-deletion {
-  color: var(--darkminus-a6e3a1);
+  color: var(--darkminus-darkish-green);
   background: rgba(243, 139, 168, 0.15);
 }
 
@@ -6761,33 +6761,36 @@ div[class*="fixClipping"]
 Dark+ Modified After Here
 */
 
+.container_de2a56 {
+	background-color: var(--darkminus-blue-violet);
+}
 .perkCard__412af {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .wrapper__4308f {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .wrapper__6b347 {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .guildContainer_fef06f {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .welcomeMessageContent__26562 {
 	background-color: var(--darkminus-main6);
 }
 .mention {
-	background-color: var(--darkminus-other2);
+	background-color: var(--darkminus-darkish-grey);
 	color: #FFFFFF;
 }
 .userPopoutOverlayBackground__3e7e6 {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .divider_d6f39c {
 	background-color: var(--darkminus-main6);
 }
  .container__1c2eb {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .header_ee0bd9 {
 	background-color: var(--darkminus-main6);
@@ -6806,22 +6809,22 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-discord-blue);
 }
 .vc-addon-card:hover {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .row__4f559 {
 	background-color: var(--darkminus-main6);
 }
 .scrollerBase__65223 {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .paymentRow__7568c {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .pageActions_ccda85 {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .bottomDivider_c85b47 {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 }
 .header__5e5a6 {
 	background-color: var(--darkminus-main);
@@ -6830,7 +6833,7 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-main2);
 }
 .card__4dc22 {
-	background-color: var(--darkminus-main0);
+	background-color: var(--darkminus-floating);
 	border-radius: 30px;
 }
 .vc-backup-restore-card {
@@ -6882,7 +6885,7 @@ Dark+ Modified After Here
   background-color: var(--darkminus-main);
 }
 .form_d8a4a1 .channelTextArea_c2094b .textArea_a86690 .placeholder__443e5 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .form_d8a4a1 .channelTextArea_c2094b .scrollableContainer_ff917f {
   max-height: 50vh;
@@ -6920,7 +6923,7 @@ Dark+ Modified After Here
 }
 
 .membersGroup_cad095 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 
 .topSection-13QKHs {
@@ -6931,110 +6934,110 @@ Dark+ Modified After Here
 }
 .header__77c95 {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .iconBadge__20a6b {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .container_debb33 .button_ae40a4:nth-child(1) .contents-3ca1mk path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .container_debb33 .button_ae40a4:nth-child(2) .contents-3ca1mk path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .container_debb33 .button_ae40a4:nth-child(3) .contents-3ca1mk path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .container_debb33 .button_ae40a4:nth-child(4) .contents-3ca1mk path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 .attachButton__56f98 .contents-3ca1mk path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 .attachButton__56f98:hover .attachButtonPlus_fd0021 {
-  fill: var(--darkminus-sec2);
+  fill: var(--darkminus-dark-blue-violet);
 }
 .button__581d0 .contents-3ca1mk path {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .button_d4bf9b path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .item-1OdjEX path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .iconWrapper_de6cd1 path {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .linkButtonIcon_cff89e path {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .actionButton__2b4bb path {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .buttonIcon__64412 path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .icon__5c8c7 path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .actionIcon_b149a2 path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .wrapper__612a5.modeUnreadImportant__35358
   .wrapper__612a5
   .mainContent-20q_Hp
   .icon__67ab4 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .wrapper__612a5 .wrapper__612a5 .mainContent-20q_Hp .icon__67ab4 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .wrapper__612a5.modeUnreadImportant__35358
   .wrapper__612a5
   .mainContent-20q_Hp
   .channelName-3KPsGw {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 
 .metadataIcon__2b10c path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .controlIcon_d1bbd7 path {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .data-slate-string path {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .winButton_f17fb6 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .VoiceChatNotifications-button-icon {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-  background: var(--darkminus-sec);
+  background: var(--darkminus-blue-violet);
   color: var(--darkminus-main);
 }
 .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
 .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
-  background: var(--darkminus-sec);
+  background: var(--darkminus-blue-violet);
   color: var(--darkminus-main);
 }
 .progressBar-1T6LYX,
@@ -7042,10 +7045,10 @@ Dark+ Modified After Here
 .mediaBarProgress_a3b7f1,
 .mediaBarProgress_a3b7f1::after,
 .mediaBarProgress_a3b7f1::before {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527 {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
 }
 .stageSection-3mAD8V {
   background-color: var(--darkminus-main);
@@ -7055,11 +7058,11 @@ Dark+ Modified After Here
   background-color: var(--darkminus-main2);
 }
 .colorHeaderPrimary-jN_yGr {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .scroller_a9a4b4 {
   background-color: var(--darkminus-main);
@@ -7069,30 +7072,30 @@ Dark+ Modified After Here
   border-bottom: none;
 }
 .headerCellContent__8e785 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .theme-dark .lookFilled-yCfaCM.hoverGreen-1KfT6K.hasHover-26V98q:hover,
 .theme-light .lookFilled-yCfaCM.hoverGreen-1KfT6K.hasHover-26V98q:hover {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   color: var(--darkminus-main2);
 }
 .nameCellText_c1f2a7 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .scroller_ddc925 {
   background-color: var(--darkminus-main);
 }
 .anchor-1MIwyf {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .icon__5c8c7 {
   height: 24px;
   width: 24px;
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .iconContainer__9f124 {
   bottom: 5px;
@@ -7116,31 +7119,31 @@ Dark+ Modified After Here
   width: 150px;
 }
 .downloadButton__3fb6d {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .downloadButton__3fb6d:hover {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .name__7afe8 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .title__84e16 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .children_cf6731 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .headerText__88997 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .clickable_ce0925 .icon_ae0b42 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .clickable_ce0925:hover .icon_ae0b42 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .item_e4ca95.item-3XjbnG.themed-2-lozF {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .childWrapper_a6ce15 path {
@@ -7153,7 +7156,7 @@ Dark+ Modified After Here
 }
 
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .grid__35551 {
   background-color: var(--darkminus-main5);
@@ -7179,17 +7182,17 @@ Dark+ Modified After Here
 
 .avatar__08316.clickable__09456 {
   filter: drop-shadow(0 0 5px);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .avatar__08316:hover.clickable__09456:hover {
   filter: drop-shadow(0 0 8px);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   transform: scale(1.2) rotate(360deg);
   transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
 }
 
 .membersGroup_cad095 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .sidebar_e031be + div {
@@ -7265,7 +7268,7 @@ Dark+ Modified After Here
 .membersGroup_cad095 {
   margin-left: 60px;
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .members__573eb,
@@ -7299,7 +7302,7 @@ Dark+ Modified After Here
 }
 
 .sidebarRegionScroller__8113e {
-  background-color: var(--darkminus-main0);
+  background-color: var(--darkminus-floating);
 }
 
 .contentRegion__08eba {
@@ -7319,7 +7322,7 @@ Dark+ Modified After Here
 }
 .background__4e802 .fieldList__4e6dd {
   padding: 16px;
-  background-color: transparent;
+  background-color: var(--darkminus-floating);
 }
 .background__4e802 .constrainedRow__72f7a .button__581d0 {
   margin-left: 8px;
@@ -7328,83 +7331,83 @@ Dark+ Modified After Here
   background-color: var(--darkminus-main);
 }
 .item-3XjbnG.themed-2-lozF {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .header-2Kx1US {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .theme-dark .foreground-2hyALB {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 .theme-dark .bd-social-logo path {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 .feature-2IUcBI {
   background-color: var(--darkminus-main2) !important;
 }
 .theme-dark .closeButton__8177f {
-  border-color: var(--darkminus-sec);
+  border-color: var(--darkminus-blue-violet);
 }
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
 }
 .defaultColor-2cKwKo {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .menu_c8834f {
   margin-right: 16px;
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   cursor: pointer;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .description-30xx7u,
 .labelDescriptor-34wZ-z {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .h5-2RwDNl {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .lookFilled-yCfaCM.colorRed-rQXKgM {
   color: var(--darkminus-main);
 }
 .lookLink-15mFoz.colorLink-1Md3RZ {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .title-2dsDLn {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .unread__48cf4 {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .overflow__993fa {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .arrow_cb03b8.icon__3aa8e {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .jumpToPresentBar__69174 {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   border-radius: 20px;
 }
 .barButtonBase__5e4cf {
   color: var(--darkminus-main);
 }
 .numberBadge__40d6f {
-  background-color: var(--darkminus-sec) !important;
+  background-color: var(--darkminus-blue-violet) !important;
   color: var(--darkminus-main);
 }
 .item_f9d377 {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .container_e1958d {
   background-color: var(--darkminus-main);
@@ -7412,16 +7415,16 @@ Dark+ Modified After Here
 .button_b82d53.buttonColor__7bad9,
 .button_b82d53 .buttonColor__7bad9 {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .subtext_ce73b4 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .addButtonIcon_d9a52c {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .addButtonIcon_d9a52c:hover {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .header-S26rhB {
   background-color: var(--darkminus-main);
@@ -7433,58 +7436,58 @@ Dark+ Modified After Here
   background-color: var(--darkminus-main2);
 }
 .activityHeader-2shpl0 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .circleIconButton__05cf2 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   background-color: var(--darkminus-main2);
 }
 .circleIconButton__05cf2.selected_aded59 {
   color: var(--darkminus-main2);
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .tabBar-2hXqzU {
   background-color: transparent;
 }
 
 button.button_ae40a4 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .activeButtonChild__58171,
 .theme-dark .button_dd99ad:hover .activeButtonChild__58171 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
 .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
-  border-bottom-color: var(--darkminus-sec);
+  border-bottom-color: var(--darkminus-blue-violet);
 }
 .top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
-  border-bottom-color: var(--darkminus-sec2);
+  border-bottom-color: var(--darkminus-dark-blue-violet);
 }
 .additionalActionsIcon-3Cy8UU {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .colorDefault-CDqZdO.focused-3qFvc8 {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .newMessagesBar__8b272 {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .unreadPill__1b4fa {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 #app-mount .divider__855e3.isUnread_de09f5 {
-  border-top: 1px solid var(--darkminus-sec);
+  border-top: 1px solid var(--darkminus-blue-violet);
 }
 .unreadPillCapStroke__89d64 {
-  color: var(--darkminus-sec);
-  fill: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
+  fill: var(--darkminus-blue-violet);
 }
 .label-2gNW3x {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 #permissions-modal-wrapper #permissions-modal {
   height: 80%;
@@ -7518,10 +7521,10 @@ button.button_ae40a4 {
   background: var(--darkminus-main) !important;
 }
 #permissions-modal-wrapper .perm-scroller .perm-name {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .title {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .editingContainer-1_nnqZ,
 .modalContent-317Xyq {
@@ -7534,18 +7537,18 @@ button.button_ae40a4 {
   background-color: var(--darkminus-main);
 }
 .icon-3CEl7H {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .grabber-2GQyvM {
-  background-color: var(--darkminus-sec);
-  border: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
+  border: var(--darkminus-blue-violet);
 }
 .avatarUploaderIndicator-2G-aIZ {
   display: none;
 }
 .item_e4ca95[aria-label="Add Friend"] {
   color: var(--darkminus-main) !important;
-  background-color: var(--darkminus-sec) !important;
+  background-color: var(--darkminus-blue-violet) !important;
 }
 .addInputWrapper-1BOZ3d {
   background-color: var(--darkminus-main);
@@ -7557,46 +7560,46 @@ button.button_ae40a4 {
   background-color: var(--darkminus-main2);
 }
 .addFriendInput__12af4::placeholder {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
 }
 .header__6ddae {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .description-1EvxpH {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .friendsEmpty__38a29 {
   background-color: var(--darkminus-main);
 }
 .button-Jt-tIg {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   color: var(--darkminus-main);
   font-weight: bold;
 }
 .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
 .wrapper__8436d:hover .childWrapper_a6ce15 {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
   color: var(--darkminus-main);
 }
 #bd-pub-button {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   color: var(--darkminus-main);
   font-weight: bold;
 }
 #bd-pub-button:hover {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
   color: var(--darkminus-main);
   font-weight: bold;
 }
 .iconBadge-3qSJIw {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
   color: var(--darkminus-main);
 }
 .label-2wRs_g {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .quickswitcher_b5bb0a {
   background-color: var(--darkminus-main);
@@ -7605,19 +7608,19 @@ button.button_ae40a4 {
   background-color: var(--darkminus-main2);
 }
 .input__2a648::placeholder {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .header__794a7 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .match_a540b5 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .note__181ba {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .miscContainer_f977de {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .theme-dark .wrapper_f5f4c9 {
   background-color: var(--darkminus-main2);
@@ -7628,64 +7631,64 @@ button.button_ae40a4 {
   border-color: var(--darkminus-main);
 }
 .container-x8Y1ix {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .container-x8Y1ix:hover {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
 }
 .colorStandard-21JIj7 {
   color: var(--darkminus-main);
 }
 .title-1_TkpU {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .subtitle-3m-md1 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .footerTitle-3Bslxi {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .title-1LqMUp {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .colorHeaderSecondary-g5teka {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .formTitle-2YQyhj {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .sampleLink-5BWNy9 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .input-2g-os5 {
   background-color: var(--darkminus-main2);
 }
 .input-2g-os5::placeholder {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .thin_b1c063.scrollerBase-_bVAAt {
   background-color: var(--darkminus-main);
 }
 .avatar__6337f {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
   background-color: var(--darkminus-main2);
 }
 .base-21yXnu {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .scroller-3j5xK2 {
   background-color: var(--darkminus-main);
 }
 .guildName_c7c59e {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .searchTitle-1qceKb {
   color: var(--darkminus-main);
 }
 .searchBox__56feb.searchBox-31Zv9h {
-  outline-color: var(--darkminus-sec);
+  outline-color: var(--darkminus-blue-violet);
 }
 .search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL {
   color: var(--darkminus-main);
@@ -7694,7 +7697,7 @@ button.button_ae40a4 {
   color: var(--darkminus-main);
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-  background-color: var(--darkminus-sec2);
+  background-color: var(--darkminus-dark-blue-violet);
 }
 .theme-dark .uploadModal__6eb75 {
   background-color: var(--darkminus-main);
@@ -7703,19 +7706,19 @@ button.button_ae40a4 {
   background-color: var(--darkminus-main);
 }
 .size14-3fJ-ot {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .filename_da9eea {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .scrollableContainer_ff917f {
   background-color: var(--darkminus-main2);
 }
 .label__262a0 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .optional__03ec5 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 button[aria-label="Send a gift"] {
   display: none;
@@ -7737,7 +7740,7 @@ button[aria-label="Send a gift"] {
   font-size: 14px;
   font-weight: 600;
   font-family: "Lato";
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .wordmark__0d178 > svg {
   display: none;
@@ -7745,39 +7748,39 @@ button[aria-label="Send a gift"] {
 
 .channelName-3KPsGw,
 .subtitle_eb6026 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .navButtonActive__0c878 {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .navButton_b588d0 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .navButton_b588d0:hover {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .colorStandard-21JIj7 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .unicodeShortcut__01a83 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .unicodeShortcut__01a83:hover {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .categoryIcon_d0a396 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .header__8e271 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .iconBadge-3qSJIw.participating-1NvRVd {
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 .botTagRegular_c89c9a {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   background-color: var(--darkminus-main2);
 }
 
@@ -7799,17 +7802,17 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main);
 }
 .sectionDescription-3uMpPK {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .lookInverted-2mDUMi.colorBrand-I6CyqQ {
   background-color: var(--darkminus-main2);
 }
 .marketingRefreshTier1Logo-38ksW_ {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .marketingRefreshDescription-2_tCTt {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .perksModalContentWrapper-2HU6uL {
   background-color: var(--darkminus-main);
@@ -7817,18 +7820,18 @@ button[aria-label="Send a gift"] {
 
 .resultsGroup-1BPR25 {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .tab-2j5AEF.selected-2LAck8 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .queryContainer-EKFJW- {
   background-color: var(--darkminus-main);
 }
 
 .icon__67ab4 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .modeUnreadImportant__35358 .icon__67ab4,
@@ -7843,11 +7846,11 @@ button[aria-label="Send a gift"] {
 .modeSelected__473f1:hover .name__4eb92,
 .modeUnreadImportant__35358 .name__4eb92,
 .modeUnreadImportant__35358:hover .name__4eb92 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 
 .name__4eb92 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .hasBanner__04337 .header__77c95,
@@ -7860,10 +7863,10 @@ button[aria-label="Send a gift"] {
   color: var(--darkminus-main);
 }
 .iconCaret-SHvQdG {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .pageButton-1GMGeJ {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .theme-dark .activeButton-LRWFC_,
@@ -7871,7 +7874,7 @@ button[aria-label="Send a gift"] {
 .theme-light .activeButton-LRWFC_,
 .theme-light .activeButton-LRWFC_:hover {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 
 .hasBanner__04337 .header__77c95,
@@ -7883,7 +7886,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main);
 }
 .closeIcon_f5a44a {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .colorHeaderSecondary-g5teka {
   color: var(--darkminus-main);
@@ -7893,7 +7896,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main2);
 }
 .theme-dark .header__58a85 .tabBar__2aa8e .tab_a8a066.active__7e7af {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .messages__1aaa1 {
   background-color: var(--darkminus-main2);
@@ -7903,23 +7906,23 @@ button[aria-label="Send a gift"] {
 }
 .tertiary_ad6d80 {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .tertiary_ad6d80:hover:not(.disabled__4d064) {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .tutorialIcon__51741 {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .secondary__45d4f {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .secondary__45d4f:hover:not(.disabled__4d064) {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .messageContainer_cb3d47 {
   background-color: var(--darkminus-main2);
@@ -7931,7 +7934,7 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main) !important;
 }
 .tab-2j5AEF {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .theme-dark .tab-2j5AEF.selected-2LAck8 {
   background-color: var(--darkminus-main2);
@@ -7940,30 +7943,30 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main2);
 }
 .section__253ec {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 .colorStandard-21JIj7 {
   color: var(--darkminus-main);
 }
 .backButton-2Ps-B8 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .skip-2hTIXL {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .grow-2sR_-F,
 .sizeIcon-1kBo12 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .input-2g-os5 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .subtitle-bIoUVX {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .size14-3fJ-ot {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .activity-1gTu-L {
   background-color: var(--darkminus-main);
@@ -7973,7 +7976,7 @@ button[aria-label="Send a gift"] {
 }
 .base-21yXnu.muted-eZM05q {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .body-2wLx-E {
   background-color: var(--darkminus-main);
@@ -7982,17 +7985,17 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main);
 }
 .size12-oc4dx4 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .customStatus__928b7 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   width: 120px;
 }
 .icons-2dXYop {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .selectedIcon-19TbzU {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .card-1SdQ2- {
   background-color: var(--darkminus-main2);
@@ -8001,19 +8004,19 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main2);
 }
 .channelInfo-2wVmf0 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .channelIcon-1su68_ {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .radioIconForeground-2BMavi {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .selectedIcon-1JOfpo {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .ellipsisText-jQS2Ek {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .selectorButtonSelected-3Z0WNU {
   background-color: var(--darkminus-main);
@@ -8030,12 +8033,12 @@ button[aria-label="Send a gift"] {
 }
 .content__7191e {
   background-color: transparent;
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .acronym_fb7739 {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .expandedFolderBackground-1cujaW {
   background-color: var(--darkminus-main2);
@@ -8048,13 +8051,13 @@ button[aria-label="Send a gift"] {
 }
 .titlePrimary__28204,
 .titleSecondary_ebfe3c {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .inspector__7b643 {
   background-color: var(--darkminus-main);
 }
 .icon-3jQD8H {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .bodyInnerWrapper-2bQs1k {
   background-color: var(--darkminus-main);
@@ -8069,42 +8072,42 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkminus-main);
 }
 .memberCountContainer-30IqIo {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .icon_fb52f0 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .input__48d49::placeholder {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .emptyRoles-35rHsg {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .emptyRolesText-30nyzO {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .icon_add68a {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .label_cc1319 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .arrow_a1ef64 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .icon_ca3dcb,
 .name_f842e4 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .tierLock__2d9cb {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .tierRequirement_d22ce7 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .size16-rrJ6ag {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .theme-dark .tierBody_fd5f94 {
   background-color: var(--darkminus-main2);
@@ -8114,39 +8117,39 @@ button[aria-label="Send a gift"] {
 }
 
 .emptyTierImage_db059c {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .emptyTierImage_db059c,
 .unlockTierCtaHeading__84d32 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .css-19bqh2r {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 .theme-dark .option-2KkUJO:after {
   background: transparent;
 }
 
 .textContent_e33074 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .categoryItemDefaultCategorySelected__7d6e0 .categoryIcon_d0a396,
 .categoryItemDefaultCategorySelected__7d6e0:hover .categoryIcon_d0a396,
 .categoryItemDefaultCategory__6c3db:hover .categoryIcon_d0a396 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .theme-dark .lookOutlined-3yKVGo.colorPrimary-2AuQVo {
-  border-color: var(--darkminus-sec);
-  color: var(--darkminus-sec);
+  border-color: var(--darkminus-blue-violet);
+  color: var(--darkminus-blue-violet);
   border-radius: 25px;
 }
 
 .css-4h5swf-singleValue {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .theme-dark .message_ff43e6 {
@@ -8154,8 +8157,8 @@ button[aria-label="Send a gift"] {
 }
 
 .keybindShortcut-3zF1P9 span {
-  background-color: var(--darkminus-sec);
-  border: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
+  border: var(--darkminus-blue-violet);
 }
 
 .bottomInformationTextContainer_bc5ef7,
@@ -8164,13 +8167,13 @@ button[aria-label="Send a gift"] {
 }
 
 .discriminator-1bqsd3 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .theme-dark .searchOption-351dTI .filter-5YbOzJ,
 .theme-dark .searchOption-351dTI .answer-2fBfuP,
 .resultsGroup-1BPR25 .header-3A13BX {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .text-PdAsFQ {
@@ -8178,13 +8181,13 @@ button[aria-label="Send a gift"] {
 }
 
 .overflowMenuIcon_a3868f {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .username__7d629,
 .discriminator__40a5c,
 .headerTagDiscriminatorNoNickname-dfcvHa {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .peopleList_d2f527,
@@ -8218,31 +8221,31 @@ button[aria-label="Send a gift"] {
 .title__4a7a9,
 .hovered__5a165,
 .customStatus__928b7 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .input__48d49,
 .medium__5b9a9.iconLayout__67261 {
-  background-color: var(--darkminus-main0);
+  background-color: var(--darkminus-floating);
   border-radius: 10px;
 }
 
 .input__48d49::placeholder {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .icon_fb52f0.visible_c5d475 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .actionButton__2b4bb {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
   background-color: var(--darkminus-main);
 }
 
 .actionButton__2b4bb:hover {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-sec);
+  background-color: var(--darkminus-blue-violet);
 }
 
 .selected__7f4cb .layout_bb8e67 {
@@ -8250,8 +8253,8 @@ button[aria-label="Send a gift"] {
 }
 
 .searchBar__621ec .searchBarComponent__8f95f {
-  background-color: var(--darkminus-main0);
-  color: var(--darkminus-sec);
+  background-color: var(--darkminus-floating);
+  color: var(--darkminus-blue-violet);
   border-radius: 8px;
 }
 
@@ -8261,7 +8264,7 @@ button[aria-label="Send a gift"] {
 }
 
 .button__437ce {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .container_f79ab4 {
@@ -8269,7 +8272,7 @@ button[aria-label="Send a gift"] {
 }
 
 .attachButtonPlus_fd0021 {
-  fill: var(--darkminus-sec);
+  fill: var(--darkminus-blue-violet);
 }
 
 .menu__088f7,
@@ -8280,13 +8283,13 @@ button[aria-label="Send a gift"] {
 .item-1OdjEX,
 .icon__1ab4f,
 .userTagDiscriminatorNoNickname-2HLaIE {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .usernameContainer__22048,
 .activityText__31c22,
 .activity-icon {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .member_b44d5d,
@@ -8323,7 +8326,7 @@ button[aria-label="Send a gift"] {
 .headerText_e86b38,
 .sidebar__02e8d .side_b4b3f6 .item__48dda,
 .bd-sidebar-header h2 {
-  color: var(--darkminus-sec);
+  color: var(--darkminus-blue-violet);
 }
 
 .content__01e65:before {
@@ -8332,13 +8335,13 @@ button[aria-label="Send a gift"] {
 
 .modeUnreadImportant__35358 .name__4eb92,
 .modeUnreadImportant__35358 .icon__67ab4 {
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--darkminus-sec) !important;
+  background-color: var(--darkminus-blue-violet) !important;
 }
 ::selection {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-sec2);
+  color: var(--darkminus-dark-blue-violet);
 }
