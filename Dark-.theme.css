@@ -6786,7 +6786,7 @@ Dark+ Modified After Here
 	background-color: var(--darkminus-main6);
 }
 .inner__999f6 {
-	background-color: var(--darkminus-main6);
+	background-color: var(--darkminus-main);
 }
 .item__183e8 {
 	background-color: var(--darkminus-main);
@@ -7286,7 +7286,7 @@ Dark+ Modified After Here
 }
 
 .sidebarRegionScroller__8113e {
-  background-color: var(--darkminus-main);
+  background-color: var(--darkminus-main0);
 }
 
 .contentRegion__08eba {
@@ -8210,7 +8210,7 @@ button[aria-label="Send a gift"] {
 
 .input__48d49,
 .medium__5b9a9.iconLayout__67261 {
-  background-color: var(--darkminus-main);
+  background-color: var(--darkminus-main0);
   border-radius: 10px;
 }
 
@@ -8237,7 +8237,7 @@ button[aria-label="Send a gift"] {
 }
 
 .searchBar__621ec .searchBarComponent__8f95f {
-  background-color: var(--darkminus-main6);
+  background-color: var(--darkminus-main0);
   color: var(--darkminus-sec);
   border-radius: 8px;
 }
