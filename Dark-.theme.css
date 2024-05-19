@@ -6743,7 +6743,7 @@ div[class*="fixClipping"]
 .theme-dark code .hljs-deletion {
   color: var(--darkminus-darkish-green);
   background: #f38ba826;
-}
+}	
 
 /*
 Dark+ Modified After Here
@@ -7283,7 +7283,7 @@ Dark+ Modified After Here
 */
 
 .scroller_c92337 {
-  background-color: var(--darkminus-main);
+  background-color: var(--darkminus-main6);
 }
 
 .sidebarRegionScroller__8113e {
