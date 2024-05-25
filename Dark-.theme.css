@@ -3408,7 +3408,7 @@ html {
   --header-primary: var(--darkminus-dark-grey);
   --text-normal: var(--darkminus-dark-grey);
   --text-muted: #a6adc8;
-  --background-primary: var(--darkminus-main);
+  --background-primary: var(--darkminus-main6);
   --background-secondary: var(--darkminus-main);
   --background-secondary-alt: var(--darkminus-main);
   --background-tertiary: var(--darkminus-main);
@@ -6743,7 +6743,7 @@ div[class*="fixClipping"]
 .theme-dark code .hljs-deletion {
   color: var(--darkminus-darkish-green);
   background: #f38ba826;
-}	
+}
 
 /*
 Dark+ Modified After Here
