@@ -7170,15 +7170,15 @@ Dark+ Modified After Here
 }
 
 .cozyMessage__9f4fd .contents_d3ae0d > .markup_a7e664:not(:empty, code) {
-  background-color: var(--darkminus-main2);
+  background-color: var(--darkminus-main6);
   display: inline-block;
   max-width: 650px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0;
-  padding: 8px;
-  border-radius: 15px;
+  padding: 9px;
+  border-radius: 10px;
 }
 
 .markup_a7e664 blockquote,
