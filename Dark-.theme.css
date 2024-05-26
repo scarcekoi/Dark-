@@ -18,13 +18,13 @@
   --darkminus-main5: #161622;
   --darkminus-main6: #181825;
   --darkminus-blue-violet: #8a2be2;
+  --darkminus-dark-grey: #f23f42;
   --darkminus-dark-blue-violet: #a86eff;
-  --darkminus-discord-default: #cdd6f4;
   --darkminus-light-grey: #494d64;
   --darkminus-darkish-grey: #363a4f;
   --darkminus-dark-purple: #ca9ee6;
   --darkminus-status-red: #eba0ac;
-  --darkminus-discord-red: #f23f42;
+  --darkminus-discord-red: #cdd6f4;
   --darkminus-pink: #f38ba8;
   --darkminus-darky-grey: #45475a;
   --darkminus-dark-pink: #f5c2e7;
@@ -123,7 +123,7 @@
 }
 .theme-dark svg[class*="gameIcon_"],
 .theme-light svg[class*="gameIcon_"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 .theme-dark svg[class*="tierMarkerLabelPlusIcon_"],
 .theme-light svg[class*="tierMarkerLabelPlusIcon_"] {
@@ -178,7 +178,7 @@
   color: var(--darkminus-main);
 }
 [class*="lookFilled_"][class*="colorPrimary_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 button[class*="lookFilled_"][class*="colorRed_"]:active {
   background-color: var(--darkminus-darkish-green);
@@ -188,7 +188,7 @@ button[class*="lookFilled_"][class*="colorRed_"]:active {
 }
 [class*="lookOutlined_"][class*="colorPrimary_"]:hover {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   border-color: var(--darkminus-darky-grey);
 }
 div[class^="actionButtons"] [class^="button"][class*="buttonColor_"],
@@ -231,11 +231,11 @@ div[class^="actionButtons"]
 }
 .theme-dark [class*="lookLink_"][class*="colorPrimary_"],
 .theme-light [class*="lookLink_"][class*="colorPrimary_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark [class*="lookFilled_"][class*="colorTransparent_"],
 .theme-light [class*="lookFilled_"][class*="colorTransparent_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-kinda-dark-grey);
 }
 div[class*="button_"][class*="dangerous_"]:hover {
@@ -282,7 +282,7 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] button[class^="backButton"][class*="lookBlank"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"]
@@ -379,7 +379,7 @@ div[class^="contentRegion"]
   #nitro-server-boost-tab
   button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -388,7 +388,7 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #nitro-server-boost-tab div[class*="card_"],
 div[class^="contentRegion"] #nitro-server-boost-tab h3[class*="price_"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #keybinds-tab span[class*="key"] {
   color: var(--darkminus-main);
@@ -404,31 +404,31 @@ div[class^="contentRegion"] #library-inventory-tab div[class^="promotionIcon"] {
   background-color: var(--darkminus-main2);
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="buttonWhite"] {
-  color: var(--darkminus-discord-default) !important;
-  border-color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
+  border-color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab h2 {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab svg[class*="sparkleStar_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="description_"] {
   color: #bac2de !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="card_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
   div[class*="card_"]
   div[class^="item"]
   div {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
@@ -442,12 +442,12 @@ div[class^="contentRegion"] #billing-tab [class*="Divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="defaultIndicator"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class*="summaryInfo"],
 div[class^="contentRegion"] #billing-tab [class^="paymentHeader"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
@@ -457,7 +457,7 @@ div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
   background-color: var(--darkminus-darky-grey);
@@ -467,7 +467,7 @@ div[class^="contentRegion"] #billing-tab [class*="paymentText_"] {
 }
 div[class^="contentRegion"] #billing-tab div[class^="codeRedemptionRedirect"] {
   background-color: var(--darkminus-main6);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   border-color: var(--darkminus-kinda-dark-grey);
 }
 div[class^="contentRegion"]
@@ -484,7 +484,7 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #notifications-tab
   button[class*="marketingUnsubscribeButton_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="nowPlayingAdd_"],
 div[class^="contentRegion"] #game-activity-tab div[class*="lastPlayed_"],
@@ -508,7 +508,7 @@ div[class^="contentRegion"]
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #game-activity-tab input[class^="gameName"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #game-activity-tab
@@ -518,7 +518,7 @@ div[class^="contentRegion"]
   input[class*="gameNameInput_"]:focus {
   background-color: var(--darkminus-main6);
   border-color: #1818254d;
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="game_"] {
   -webkit-box-shadow: 0 1px 0 0 var(--background-modifier-accent);
@@ -708,7 +708,7 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #profile-customization-tab
   div[class^="imageUploaderIcon_"] {
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #appearance-tab div[class^="selectionCircle"] {
   box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 4px var(--darkminus-main);
@@ -738,7 +738,7 @@ div[class^="contentRegion"] #overview-tab div[class^="addTags"] svg path {
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #onboarding-tab div[class*="heroQuotes"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
@@ -778,7 +778,7 @@ div[class^="contentRegion"] #developer-options-tab kbd {
   color: var(--darkminus-main);
 }
 .bd-settings-title {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .bd-switch-body {
   --switch-color: #585b70;
@@ -1029,14 +1029,14 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   svg
   g {
-  fill: var(--darkminus-discord-default);
+  fill: var(--darkminus-dark-grey);
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
   div[class^="premiumCards"]
   div[class*="item"]
   div[class^="text"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -1047,7 +1047,7 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   h2
   span {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -1075,7 +1075,7 @@ div[class^="shop"]
   div[class^="heroBanner"]
   div[class^="heroDescription"]
   div[class^="text"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="shop"]
   div[class^="heroBanner"]
@@ -1188,10 +1188,10 @@ svg[class*="botTagVerified_"] {
 }
 div[class*="activePostCount_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="newPostCount_"] {
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
   color: var(--darkminus-main);
 }
 div[class*="liveSmall_"] {
@@ -1464,12 +1464,12 @@ main[class^="chatContent"]
 }
 .theme-dark div[class^="spoilerContainer"] div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"] div[class^="spoilerWarning"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: #11111bb3;
 }
 .theme-dark div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main);
 }
 .theme-dark div[class^="spoilerContainer"] article[class*="embedFull_"],
@@ -1590,8 +1590,8 @@ div[class^="chat"]
 }
 div[class^="sidebar"] > section[class^="panels"] svg[class*="buttonIcon_"],
 div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
-  fill: var(--darkminus-discord-default);
-  color: var(--darkminus-discord-default);
+  fill: var(--darkminus-dark-grey);
+  color: var(--darkminus-dark-grey);
 }
 [data-list-id^="forum-channel-list"]
   div[class^="body"]
@@ -1657,7 +1657,7 @@ div[class^="callContainer"] [class*="controlIcon_"] {
   color: #bac2de;
 }
 div[class^="callContainer"] [class*="controlIcon_"]:hover {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="tile_"],
 div[class^="callContainer"] div[class*="background_"] {
@@ -1666,17 +1666,17 @@ div[class^="callContainer"] div[class*="background_"] {
 div[class^="callContainer"] div[class*="overlayTitle"],
 div[class^="callContainer"] svg[class*="status_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="header"],
 div[class^="callContainer"] svg[class*="selectedIcon_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="button_"][class*="contents_"],
 div[class^="callContainer"] button[class*="cta_"],
 div[class^="callContainer"] button[class*="participantsButton_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="indicators"]
@@ -1699,7 +1699,7 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="bottomControls"]
   button[class^="textButton"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-darky-grey);
 }
 div[class^="callContainer"]
@@ -1721,7 +1721,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   div[class^="qualityIndicator"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1729,7 +1729,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   svg[class^="premiumStreamIcon"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1751,7 +1751,7 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   button[class*="leftTrayIcon_"][class*="buttonColor_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
   color: var(--darkminus-main);
@@ -1778,19 +1778,19 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"] {
   background: var(--darkminus-darky-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   [class*="centerIcon_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   svg[class^="raisedHandButtonIcon"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -1821,7 +1821,7 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"][class*="active_"] {
-  background: var(--darkminus-discord-default);
+  background: var(--darkminus-dark-grey);
 }
 div[class^="chat"] section[class*="forumOrHome_"] {
   background-color: var(--darkminus-main2);
@@ -1836,7 +1836,7 @@ div[class*="giftCodeContainer"] [class*="tile"] {
   background-color: var(--darkminus-main6);
 }
 div[class*="giftCodeContainer"] [class*="tile"] > [class*="description"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="chat_"] section[class*="header_"] {
   background-color: var(--darkminus-main);
@@ -1894,7 +1894,7 @@ div[class*="chat_"]
   div[class*="searchBar"]
   span[class*="search"] {
   background-color: var(--darkminus---darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 nav[class*="pageControl"] div[class*="roundButton"][class*="activeButton"],
 nav[class*="pageControl"]
@@ -1941,7 +1941,7 @@ div[class*="chat_"] div[class*="innerHeader"]:after {
   color: #a6adc8;
 }
 [id*="message-accessories-"] > [class*="invite_"] [class*="partyStatus_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 [class^="avatar"] [class^="dots"] {
   color: var(--darkminus-main2);
@@ -2026,7 +2026,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="caret"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -2254,7 +2254,7 @@ div[class^="layerContainer"]
   div[class*="container"]
   section {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="recentMentionsPopout"]
   div[class^="header"]
@@ -2369,13 +2369,13 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   button[class^="modalCloseButton"],
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h2,
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h3 {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-light
   div[class^="focusLock"]
   div[class^="downloadApps"]
   div[class*="footer_"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
   background-color: unset !important;
 }
 .theme-light
@@ -2456,7 +2456,7 @@ div[class^="layerContainer"]
   div[role="listbox"]
   div[class*="queryText_"]
   strong {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2536,7 +2536,7 @@ div[class^="layerContainer"]
   div[class^="focusLock"]
   div[class^="contentWrapper"]
   span {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -2667,7 +2667,7 @@ div[class^="layerContainer"] div[class^="queryContainer"] {
   background-color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] div[class^="queryContainer"] span[class^="key"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main2);
 }
 div[class^="layerContainer"] [class*="tooltipBrand_"],
@@ -2769,14 +2769,14 @@ div[class*="layerContainer_"] div[class*="guildPopout_"][role="dialog"] {
 div[class*="layerContainer_"]
   div[class*="guildPopout_"][role="dialog"]
   div[class*="guildName_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"] {
   color: #7f849c !important;
   opacity: 1;
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"]:hover {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="userPopoutOuter_"] div[aria-label="HypeSquad Bravery"] img,
 div[class*="userProfileOuter_"] div[aria-label="HypeSquad Bravery"] img {
@@ -2819,7 +2819,7 @@ div[class*="userProfileOuter_"]
   [id^="slate_toolbar"]
   [class*="buttons_"]
   [class*="icon_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 [class*="layerContainer_"]
   div[id="sort_and_view"]
@@ -2840,7 +2840,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   button[class^="messageClydeButton"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-darky-grey);
 }
 div[class^="layerContainer"]
@@ -2851,7 +2851,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   div[class^="pencilContainer"]
   svg[class^="editIcon"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="keyboardShortcutsModal"] span[class^="key"] {
   color: var(--darkminus-main) !important;
@@ -2892,7 +2892,7 @@ div[class*="phoneFieldPopout"] {
 }
 div[class*="phoneFieldPopout"] div[class^="countryName"],
 div[class*="phoneFieldPopout"] div[class^="countryCode"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="customColorPicker"] {
   background: var(--darkminus-main6) !important;
@@ -2941,7 +2941,7 @@ div[class^="layerContainer"]
   div[class^="activityStreamPreview"]
   div[class*="content"]
   div {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
@@ -3068,7 +3068,7 @@ div[class^="flowerStarContainer"][class*="iconBackgroundTierTwo_"]
   div[class^="childContainer"]
   svg
   path {
-  fill: var(--darkminus-discord-default);
+  fill: var(--darkminus-dark-grey);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierThree_"]
   svg[class*="flowerStar_"]
@@ -3085,7 +3085,7 @@ div[class^="flowerStarContainer"] div[class^="childContainer"] svg path {
 }
 div[class^="communityInfoPill"] {
   --background-accent: #1e1e2eb3;
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="communityInfoPill"] div[class^="text"] {
   font-weight: 500;
@@ -3098,7 +3098,7 @@ svg[class^="uploadIcon"] {
 }
 .theme-dark h2[class^="emptyStateHeader"],
 .theme-light h2[class^="emptyStateHeader"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark p[class^="emptyStateSubtext"],
 .theme-light p[class^="emptyStateSubtext"] {
@@ -3207,7 +3207,7 @@ div[class*="actions_"] button svg > path {
   fill: var(--darkminus-main) !important;
 }
 div[class*="actions_"] div[class^="panelButtonContainer"] button svg > path {
-  fill: var(--darkminus-discord-default) !important;
+  fill: var(--darkminus-dark-grey) !important;
 }
 div[class*="fixClipping"]
   div[class^="tip"]
@@ -3216,7 +3216,7 @@ div[class*="fixClipping"]
   color: var(--darkminus-main);
 }
 .theme-dark code.hljs {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background: var(--darkminus-main2);
 }
 .theme-dark code .hljs-keyword {
@@ -3277,7 +3277,7 @@ div[class*="fixClipping"]
   color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-params {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark code .hljs-comment {
   color: #585b70;
@@ -3405,8 +3405,8 @@ html {
 }
 .theme-dark,
 .theme-light {
-  --header-primary: var(--darkminus-discord-default);
-  --text-normal: var(--darkminus-discord-default);
+  --header-primary: var(--darkminus-dark-grey);
+  --text-normal: var(--darkminus-dark-grey);
   --text-muted: #a6adc8;
   --background-primary: var(--darkminus-main6);
   --background-secondary: var(--darkminus-main);
@@ -3420,9 +3420,9 @@ html {
   --green-360: var(--darkminus-darkish-green);
   --brand-500: var(--darkminus-light-grey);
   --channels-default: #969ebe;
-  --interactive-normal: var(--darkminus-discord-default);
-  --interactive-hover: var(--darkminus-discord-default);
-  --interactive-active: var(--darkminus-discord-default);
+  --interactive-normal: var(--darkminus-dark-grey);
+  --interactive-hover: var(--darkminus-dark-grey);
+  --interactive-active: var(--darkminus-dark-grey);
 }
 ::selection {
   background-color: #89b4fa99;
@@ -3511,7 +3511,7 @@ html {
 }
 .theme-dark svg[class*="gameIcon_"],
 .theme-light svg[class*="gameIcon_"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 .theme-dark svg[class*="tierMarkerLabelPlusIcon_"],
 .theme-light svg[class*="tierMarkerLabelPlusIcon_"] {
@@ -3566,7 +3566,7 @@ html {
   color: var(--darkminus-main);
 }
 [class*="lookFilled_"][class*="colorPrimary_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 button[class*="lookFilled_"][class*="colorRed_"]:active {
   background-color: var(--darkminus-darkish-green);
@@ -3576,7 +3576,7 @@ button[class*="lookFilled_"][class*="colorRed_"]:active {
 }
 [class*="lookOutlined_"][class*="colorPrimary_"]:hover {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   border-color: var(--darkminus-darky-grey);
 }
 div[class^="actionButtons"] [class^="button"][class*="buttonColor_"],
@@ -3619,11 +3619,11 @@ div[class^="actionButtons"]
 }
 .theme-dark [class*="lookLink_"][class*="colorPrimary_"],
 .theme-light [class*="lookLink_"][class*="colorPrimary_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark [class*="lookFilled_"][class*="colorTransparent_"],
 .theme-light [class*="lookFilled_"][class*="colorTransparent_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-kinda-dark-grey);
 }
 div[class*="button_"][class*="dangerous_"]:hover {
@@ -3670,7 +3670,7 @@ div[role="radio"][class*="selected"][class*="allow"] {
   color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] button[class^="backButton"][class*="lookBlank"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="sidebarRegion"]
   div[class^="serverBoostTabItem"]
@@ -3767,7 +3767,7 @@ div[class^="contentRegion"]
   #nitro-server-boost-tab
   button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #nitro-server-boost-tab
@@ -3776,7 +3776,7 @@ div[class^="contentRegion"]
 }
 div[class^="contentRegion"] #nitro-server-boost-tab div[class*="card_"],
 div[class^="contentRegion"] #nitro-server-boost-tab h3[class*="price_"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #keybinds-tab span[class*="key"] {
   color: var(--darkminus-main);
@@ -3792,31 +3792,31 @@ div[class^="contentRegion"] #library-inventory-tab div[class^="promotionIcon"] {
   background-color: var(--darkminus-main2);
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="buttonWhite"] {
-  color: var(--darkminus-discord-default) !important;
-  border-color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
+  border-color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab h2 {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab svg[class*="sparkleStar_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="description_"] {
   color: #bac2de !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab div[class*="card_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
   div[class*="card_"]
   div[class^="item"]
   div {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="contentRegion"] #discord-nitro-tab button[class*="lookInverted_"] {
   color: var(--darkminus-main);
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #discord-nitro-tab
@@ -3830,12 +3830,12 @@ div[class^="contentRegion"] #billing-tab [class*="Divider"] {
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="defaultIndicator"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-darky-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class*="summaryInfo"],
 div[class^="contentRegion"] #billing-tab [class^="paymentHeader"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   border-color: var(--background-modifier-accent);
 }
 div[class^="contentRegion"] #billing-tab div[class^="premiumIndicator"] {
@@ -3845,7 +3845,7 @@ div[class^="contentRegion"] #billing-tab div[class^="paymentPane"],
 div[class^="contentRegion"] #billing-tab div[class*="paginator_"],
 div[class^="contentRegion"] #billing-tab div[class*="payment_"] {
   background-color: var(--darkminus-main);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #billing-tab div[class^="expandedInfo"] {
   background-color: var(--darkminus-darky-grey);
@@ -3855,7 +3855,7 @@ div[class^="contentRegion"] #billing-tab [class*="paymentText_"] {
 }
 div[class^="contentRegion"] #billing-tab div[class^="codeRedemptionRedirect"] {
   background-color: var(--darkminus-main6);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   border-color: var(--darkminus-kinda-dark-grey);
 }
 div[class^="contentRegion"]
@@ -3872,7 +3872,7 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #notifications-tab
   button[class*="marketingUnsubscribeButton_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="nowPlayingAdd_"],
 div[class^="contentRegion"] #game-activity-tab div[class*="lastPlayed_"],
@@ -3896,7 +3896,7 @@ div[class^="contentRegion"]
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #game-activity-tab input[class^="gameName"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #game-activity-tab
@@ -3906,7 +3906,7 @@ div[class^="contentRegion"]
   input[class*="gameNameInput_"]:focus {
   background-color: var(--darkminus-main6);
   border-color: rgba(24, 24, 37, 0.3);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #game-activity-tab div[class*="game_"] {
   -webkit-box-shadow: 0 1px 0 0 var(--background-modifier-accent);
@@ -4096,7 +4096,7 @@ div[class^="contentRegion"]
 div[class^="contentRegion"]
   #profile-customization-tab
   div[class^="imageUploaderIcon_"] {
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"] #appearance-tab div[class^="selectionCircle"] {
   box-shadow: inset 0 0 0 2px var(--darkminus-light-grey), inset 0 0 0 4px var(--darkminus-main);
@@ -4126,7 +4126,7 @@ div[class^="contentRegion"] #overview-tab div[class^="addTags"] svg path {
   fill: var(--darkminus-main) !important;
 }
 div[class^="contentRegion"] #onboarding-tab div[class*="heroQuotes"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="contentRegion"]
   #onboarding-tab
@@ -4166,7 +4166,7 @@ div[class^="contentRegion"] #developer-options-tab kbd {
   color: var(--darkminus-main);
 }
 .bd-settings-title {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .bd-switch-body {
   --switch-color: #585b70;
@@ -4417,14 +4417,14 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   svg
   g {
-  fill: var(--darkminus-discord-default);
+  fill: var(--darkminus-dark-grey);
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
   div[class^="premiumCards"]
   div[class*="item"]
   div[class^="text"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -4435,7 +4435,7 @@ div[class*="applicationStore"]
   div[class^="premiumCards"]
   h2
   span {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="applicationStore"]
   div[class*="premiumContainer"]
@@ -4463,7 +4463,7 @@ div[class^="shop"]
   div[class^="heroBanner"]
   div[class^="heroDescription"]
   div[class^="text"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="shop"]
   div[class^="heroBanner"]
@@ -4587,10 +4587,10 @@ svg[class*="botTagVerified_"] {
 }
 div[class*="activePostCount_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="newPostCount_"] {
-  background-color: var(--darkminus-discord-default);
+  background-color: var(--darkminus-dark-grey);
   color: var(--darkminus-main);
 }
 div[class*="liveSmall_"] {
@@ -4863,12 +4863,12 @@ main[class^="chatContent"]
 }
 .theme-dark div[class^="spoilerContainer"] div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"] div[class^="spoilerWarning"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: rgba(17, 17, 27, 0.7);
 }
 .theme-dark div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"],
 .theme-light div[class^="spoilerContainer"]:hover div[class^="spoilerWarning"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main);
 }
 .theme-dark div[class^="spoilerContainer"] article[class*="embedFull_"],
@@ -4989,8 +4989,8 @@ div[class^="chat"]
 }
 div[class^="sidebar"] > section[class^="panels"] svg[class*="buttonIcon_"],
 div[class^="sidebar"] > section[class^="panels"] div[class*="buttonContents"] {
-  fill: var(--darkminus-discord-default);
-  color: var(--darkminus-discord-default);
+  fill: var(--darkminus-dark-grey);
+  color: var(--darkminus-dark-grey);
 }
 [data-list-id^="forum-channel-list"]
   div[class^="body"]
@@ -5056,7 +5056,7 @@ div[class^="callContainer"] [class*="controlIcon_"] {
   color: #bac2de;
 }
 div[class^="callContainer"] [class*="controlIcon_"]:hover {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="tile_"],
 div[class^="callContainer"] div[class*="background_"] {
@@ -5065,17 +5065,17 @@ div[class^="callContainer"] div[class*="background_"] {
 div[class^="callContainer"] div[class*="overlayTitle"],
 div[class^="callContainer"] svg[class*="status_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="header"],
 div[class^="callContainer"] svg[class*="selectedIcon_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class*="button_"][class*="contents_"],
 div[class^="callContainer"] button[class*="cta_"],
 div[class^="callContainer"] button[class*="participantsButton_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="indicators"]
@@ -5098,7 +5098,7 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   div[class^="bottomControls"]
   button[class^="textButton"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-darky-grey);
 }
 div[class^="callContainer"]
@@ -5120,7 +5120,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   div[class^="qualityIndicator"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5128,7 +5128,7 @@ div[class^="callContainer"]
   div[class^="streamQualityIndicator"]
   div[class^="liveQualityIndicator"]
   svg[class^="premiumStreamIcon"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5150,7 +5150,7 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   button[class*="leftTrayIcon_"][class*="buttonColor_"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"] div[class^="videoControls"] div[class^="badge"] {
   color: var(--darkminus-main);
@@ -5177,19 +5177,19 @@ div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"] {
   background: var(--darkminus-darky-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   [class*="centerIcon_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="primaryDark_"]
   svg[class^="raisedHandButtonIcon"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="callContainer"]
   div[class^="videoControls"]
@@ -5220,7 +5220,7 @@ div[class^="callContainer"]
 div[class^="callContainer"]
   div[class^="videoControls"]
   [class*="colorable_"][class*="white_"][class*="active_"] {
-  background: var(--darkminus-discord-default);
+  background: var(--darkminus-dark-grey);
 }
 div[class^="chat"] section[class*="forumOrHome_"] {
   background-color: var(--darkminus-main2);
@@ -5235,7 +5235,7 @@ div[class*="giftCodeContainer"] [class*="tile"] {
   background-color: var(--darkminus-main6);
 }
 div[class*="giftCodeContainer"] [class*="tile"] > [class*="description"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="chat_"]
   div[class*="content_"][class*="container_"]
@@ -5281,7 +5281,7 @@ div[class*="chat_"]
   div[class*="searchBar"]
   span[class*="search"] {
   background-color: var(--darkminus-kinda-dark-grey);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 nav[class*="pageControl"] div[class*="roundButton"][class*="activeButton"],
 nav[class*="pageControl"]
@@ -5328,7 +5328,7 @@ div[class*="chat_"] div[class*="innerHeader"]:after {
   color: #a6adc8;
 }
 [id*="message-accessories-"] > [class*="invite_"] [class*="partyStatus_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 [class^="avatar"] [class^="dots"] {
   color: var(--darkminus-main2);
@@ -5374,7 +5374,7 @@ div[class^="layerContainer"] [role="menu"] {
 div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"][class*="colorBrand"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5413,7 +5413,7 @@ div[class^="layerContainer"]
   [role="menu"]
   [class*="colorDefault"]
   [class*="caret"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   [role="menu"]
@@ -5641,7 +5641,7 @@ div[class^="layerContainer"]
   div[class*="container"]
   section {
   background-color: var(--darkminus-main2);
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="recentMentionsPopout"]
   div[class^="header"]
@@ -5756,13 +5756,13 @@ section[class*="positionContainer_"] button[class*="navButtonActive"] {
   button[class^="modalCloseButton"],
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h2,
 .theme-light div[class^="focusLock"] div[class^="downloadApps"] h3 {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-light
   div[class^="focusLock"]
   div[class^="downloadApps"]
   div[class*="footer_"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
   background-color: unset !important;
 }
 .theme-light
@@ -5843,7 +5843,7 @@ div[class^="layerContainer"]
   div[role="listbox"]
   div[class*="queryText_"]
   strong {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -5923,7 +5923,7 @@ div[class^="layerContainer"]
   div[class^="focusLock"]
   div[class^="contentWrapper"]
   span {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="layerContainer"]
   > div[class*="layer"]
@@ -6054,7 +6054,7 @@ div[class^="layerContainer"] div[class^="queryContainer"] {
   background-color: var(--darkminus-main) !important;
 }
 div[class^="layerContainer"] div[class^="queryContainer"] span[class^="key"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-main2);
 }
 div[class^="layerContainer"] [class*="tooltipBrand_"],
@@ -6156,14 +6156,14 @@ div[class*="layerContainer_"] div[class*="guildPopout_"][role="dialog"] {
 div[class*="layerContainer_"]
   div[class*="guildPopout_"][role="dialog"]
   div[class*="guildName_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"] {
   color: #7f849c !important;
   opacity: 1;
 }
 div[class*="layerContainer_"] [role*="dialog"] a[class*="downloadLink_"]:hover {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class*="userPopoutOuter_"] div[aria-label="HypeSquad Bravery"] img,
 div[class*="userProfileOuter_"] div[aria-label="HypeSquad Bravery"] img {
@@ -6206,7 +6206,7 @@ div[class*="userProfileOuter_"]
   [id^="slate_toolbar"]
   [class*="buttons_"]
   [class*="icon_"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 [class*="layerContainer_"]
   div[id="sort_and_view"]
@@ -6227,7 +6227,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   div[aria-label="clyde"]
   button[class^="messageClydeButton"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background-color: var(--darkminus-darky-grey);
 }
 div[class^="layerContainer"]
@@ -6238,7 +6238,7 @@ div[class^="layerContainer"]
 div[class^="layerContainer"]
   div[class^="pencilContainer"]
   svg[class^="editIcon"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="keyboardShortcutsModal"] span[class^="key"] {
   color: var(--darkminus-main) !important;
@@ -6279,7 +6279,7 @@ div[class*="phoneFieldPopout"] {
 }
 div[class*="phoneFieldPopout"] div[class^="countryName"],
 div[class*="phoneFieldPopout"] div[class^="countryCode"] {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="customColorPicker"] {
   background: var(--darkminus-main6) !important;
@@ -6328,7 +6328,7 @@ div[class^="layerContainer"]
   div[class^="activityStreamPreview"]
   div[class*="content"]
   div {
-  color: var(--darkminus-discord-default) !important;
+  color: var(--darkminus-dark-grey) !important;
 }
 div[class^="layerContainer"]
   div[class^="eventStatusContainer"]
@@ -6455,7 +6455,7 @@ div[class^="flowerStarContainer"][class*="iconBackgroundTierTwo_"]
   div[class^="childContainer"]
   svg
   path {
-  fill: var(--darkminus-discord-default);
+  fill: var(--darkminus-dark-grey);
 }
 div[class^="flowerStarContainer"][class*="iconBackgroundTierThree_"]
   svg[class*="flowerStar_"]
@@ -6472,7 +6472,7 @@ div[class^="flowerStarContainer"] div[class^="childContainer"] svg path {
 }
 div[class^="communityInfoPill"] {
   --background-accent: #1e1e2eb3;
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 div[class^="communityInfoPill"] div[class^="text"] {
   font-weight: 500;
@@ -6485,7 +6485,7 @@ svg[class^="uploadIcon"] {
 }
 .theme-dark h2[class^="emptyStateHeader"],
 .theme-light h2[class^="emptyStateHeader"] {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark p[class^="emptyStateSubtext"],
 .theme-light p[class^="emptyStateSubtext"] {
@@ -6594,7 +6594,7 @@ div[class*="actions_"] button svg > path {
   fill: var(--darkminus-main) !important;
 }
 div[class*="actions_"] div[class^="panelButtonContainer"] button svg > path {
-  fill: var(--darkminus-discord-default) !important;
+  fill: var(--darkminus-dark-grey) !important;
 }
 div[class*="fixClipping"]
   div[class^="tip"]
@@ -6603,7 +6603,7 @@ div[class*="fixClipping"]
   color: var(--darkminus-main);
 }
 .theme-dark code.hljs {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
   background: var(--darkminus-main2);
 }
 .theme-dark code .hljs-keyword {
@@ -6664,7 +6664,7 @@ div[class*="fixClipping"]
   color: var(--darkminus-light-grey);
 }
 .theme-dark code .hljs-params {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 .theme-dark code .hljs-comment {
   color: #585b70;
@@ -8219,7 +8219,7 @@ button[aria-label="Send a gift"] {
 }
 .clickable_ce0925 .icon_ae0b42,
 .clickable_ce0925:hover .icon_ae0b42:hover {
-  color: var(--darkminus-discord-default);
+  color: var(--darkminus-dark-grey);
 }
 
 .input__48d49,
